@@ -1,0 +1,69 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400);
+/* The MIT License (MIT) Copyright (c) 2014 cPanel, Inc. - for more information about the licensing of this document, please review the LICENSE.md file in the project root */
+
+b, strong, label {font-weight:500;}
+
+header .navbar-header .navbar-brand .brand-name {font-weight:200;}
+
+body {
+	background: url(/styled/current_style/buildings-high-rise-manhattan-2324.jpg) no-repeat center center fixed;
+	/* SOURCE: http://www.pexels.com/photo/2324/ photo by Philipp Henzler, unsplash.com */
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	padding-top:0;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight:400;
+}
+
+#quickLinks {
+	display:none;
+	margin-bottom:0;
+	background:none;
+	border:0;
+}
+
+#content {
+	background:rgba(255,255,255,0.9);
+	margin-top:20px;
+	padding-top:20px;
+	-webkit-box-shadow: 10px 10px 95px -2px rgba(0,0,0,1);
+	-moz-box-shadow: 10px 10px 95px -2px rgba(0,0,0,1);
+	box-shadow: 10px 10px 95px -2px rgba(0,0,0,1);
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+.navbar, footer {
+	background:none;
+	border:none;
+	margin-bottom:0;
+}
+header .navbar-fixed-top {
+	position:relative;
+	top:inherit;
+	width:inherit;
+	margin-top:10px;
+}
+.cellbox-header {
+	background:none;
+}
+header .brand-name {
+	color:white;
+}
+.navbar-preferences {
+	margin-top:8px;
+	margin-right:-17px;
+}
+.btn, button, .btn-default, .btn-default[disabled] {
+	border: none;
+	box-shadow: none;
+	-webkit-box-shadow: none;
+}
+footer .navbar-nav>li>a {
+	color:white;
+}
+.nav>li>a:hover, .nav>li>a:focus {
+	background:none;
+}
