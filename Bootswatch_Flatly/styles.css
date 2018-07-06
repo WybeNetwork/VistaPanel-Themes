@@ -1,0 +1,43 @@
+@import url("/styled/current_style/bootstrap.css");
+/* The MIT License (MIT) Copyright (c) 2014 cPanel, Inc. - for more information about the licensing of this document, please review the LICENSE.md file in the project root */
+
+/* -- cPanel Paper Lantern Bootswatch Adapter --*/
+
+/* Resets */
+
+/* return buttons to default Bootstrap look*/
+.btn {
+    box-shadow: none;
+}
+
+/* ensures that tables within tables don't look recursively styled */
+td table tr, td table td {
+  border:0 !important;
+}
+
+/* turning off the fixed floating header */
+header .navbar-fixed-top {
+    position:relative;
+    top:inherit;
+    width:inherit;
+}
+body {
+    padding-top:0;
+    background:black;
+}
+.navbar {
+    margin-bottom:0;
+}
+
+/* turning off the quick links */
+#quickLinks {
+  display:none;
+}
+
+footer {
+  background:none;
+}
+footer .navbar-nav li a:hover {
+  background: none;
+  text-decoration: underline;
+}

@@ -1,0 +1,62 @@
+/* The MIT License (MIT) Copyright (c) 2014 cPanel, Inc. - for more information about the licensing of this document, please review the LICENSE.md file in the project root */
+
+.navbar-fixed-top {
+    position: absolute;
+}
+header .navbar .container {
+    width:auto;
+}
+
+#content {
+    width:1920px;
+}
+#quickLinks {
+    display:none;
+}
+aside#sub {
+    width:300px;
+}
+#main {
+    border-left:1px solid #efefef;
+}
+.cellbox {
+    width:28%;
+    float:left;
+    min-height:300px;
+    margin:15px;
+    display: inline-block;
+}
+#file_manager_switch {
+    margin-top:450px;
+    font-size:30px;
+    text-align:center;
+}
+#file_manager_switch a {
+    display:inline-block;
+    border:4px solid #efefef;
+    padding:15px;
+    border-radius: 200px;
+}
+#file_manager_switch .glyphicon {
+    display:block;
+}
+#file_manager_switch .title {
+    text-align:center;
+    font-size:18px;
+}
+.section {
+    float:left;
+    width:45%;
+    margin-left:15px;
+}
+.section .col-lg-6 {
+    width:95%;
+}
+
+.jump {
+    display:none;
+}
+#news, #themeSelection {
+    width:100%;
+    margin-left:0;
+}
