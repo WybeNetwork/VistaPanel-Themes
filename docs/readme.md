@@ -16,5 +16,5 @@ The code in there is just an example using the Light theme, you must change "lig
 
 It will be now deployed and used in VistaPanel. Congraulations, you have just changed your theme!
 # Acknowledgments  
-This project would not exist without the help of my friend and partner <a href="https://github.com/mahofficial">Aqib</a>. </br>
+This project would not exist without the help of my friend and partner <a href="https://github.com/mahofficial">Aqib</a>. <br />
 Thanks to PlanetGamingGG for reporting some issues that existed.
