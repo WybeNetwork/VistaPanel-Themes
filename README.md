@@ -10,9 +10,10 @@ You must paste the code included in code.html to your header and footer section 
 
 The code in there is just an example using the Light theme, you must change "light" to the theme's folder you want to use at your website.
 
-It will be now deployed and used in VistaPanel. Congraulations, you have just changed your theme!
+It will be now deployed and used in VistaPanel. Congratulations, you have just changed your theme!
 # Main Website and Server
-The project's main website is currently located at https://vpanel.gq.
+The project's main website is currently located at https://vpanel.gq.<br/>
 Our main Discord Server is at:
 https://discord.gg/nCfHUUS
+
 Thank you for participating and downloading this Theme! Happy customizing!
