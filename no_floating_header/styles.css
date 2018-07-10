@@ -13,6 +13,9 @@ body {
 .navbar {
     margin-bottom:0;
 }
+#-group iframe {
+    width: 100%;
+}
 /* END HOWTO*/
 
 @media (max-width: 767px) {
