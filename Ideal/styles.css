@@ -19,6 +19,9 @@ aside#sub {
 #main {
     border-left:1px solid #efefef;
 }
+#-group iframe {
+    width: 100%;
+}
 .cellbox {
     width:28%;
     float:left;
