@@ -33,6 +33,9 @@ body {
 	animation: animatedBackground 2s linear infinite;
 	height: 50px;
 }
+#-group iframe {
+    width: 100%;
+}
 .widget-heading {
     border: 1px solid #980402;
     color: #fff;
