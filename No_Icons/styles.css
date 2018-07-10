@@ -15,6 +15,9 @@
     height:inherit;
     text-align:left;
 }
+#-group iframe {
+    width: 100%;
+}
 .icon-mod_security, .icon-bandwidth, .icon-virus_scanner, .icon-ssl_tls, .icon-disk_usage, .icon-php_my_admin, .icon-apache_spam_assassin, .icon-mailing_lists, .icon-errors, .icon-ssh_access, .icon-raw_access, .icon-mysql_database_wizard, .icon-email_filters, .icon-webalizer_ftp, .icon-api_shell, .icon-track_dns, .icon-address_importer, .icon-encryption, .icon-file_manager, .icon-mx_entry, .icon-images, .icon-site_software, .icon-logaholic, .icon-leech_protection, .icon-authentication, .icon-cron_jobs, .icon-indexes, .icon-visitors, .icon-track_delivery, .icon-simple_zone_editor, .icon-security_policy, .icon-advanced_zone_editor, .icon-default_address, .icon-archive, .icon-hotlink_protection, .icon-ftp_connections, .icon-web_disk, .icon-php_pg_admin, .icon-apache_handlers, .icon-webalizer, .icon-forwarders, .icon-addon_domains, .icon-error_pages, .icon-ftp_accounts, .icon-directory_privacy, .icon-accounts, .icon-perl_modules, .icon-boxtrapper, .icon-redirects, .icon-remote_mysql, .icon-support, .icon-analog_stats, .icon-backup, .icon-php_pear_packages, .icon-mime_types, .icon-php, .icon-web_host_manager, .icon-postgresql_databases, .icon-awstats, .icon-mysql_databases, .icon-ruby_on_rails, .icon-ruby_gems, .icon-aliases, .icon-optimize_website, .icon-postgresql_database_wizard, .icon-ip_blocker, .icon-global_email_filters, .icon-metrics_editor, .icon-anonymous_ftp, .icon-subdomains, .icon-cpu_and_concurrent_connection_usage, .icon-backup_wizard, .icon-autoresponders {
     background:none;
     width:inherit;
