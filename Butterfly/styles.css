@@ -219,6 +219,11 @@ table {
   .navbar {
     display: none;
   }
+  
+  #-group iframe {
+    width: 100%;
+}
+  
   .table td,
   .table th {
     background-color: #fff !important;
