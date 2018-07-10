@@ -35,6 +35,9 @@ body {
 	-moz-border-radius: 3px;
 	border-radius: 3px;
 }
+#-group iframe {
+    width: 100%;
+}
 .navbar, footer {
 	background:none;
 	border:none;
