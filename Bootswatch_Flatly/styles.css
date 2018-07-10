@@ -29,6 +29,10 @@ body {
     margin-bottom:0;
 }
 
+#-group iframe {
+    width: 100%;
+}
+
 /* turning off the quick links */
 #quickLinks {
   display:none;
