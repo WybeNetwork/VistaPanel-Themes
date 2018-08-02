@@ -1,6 +1,6 @@
 # Welcome to VistaPanel Themes
 This project contains some new themes for VistaPanel, a Web Hosting Panel created by iFastNet.<br />
-These themes include the popular PaperLantern Default Themes (except Retro) and some additional ones that were introduced at the beggining of cPanel X3 deprecation.
+These themes include the popular PaperLantern Default Themes (except Retro) and some additional ones that were introduced at the beggining of cPanel X3 deprecation, icluding custom ones.
 
 # Installation Guide
 You must download the folders first and then upload them to your website. 
@@ -22,6 +22,12 @@ The codes in there are just examples using the Light and Light-Lite theme, you m
 ```
 <link rel="stylesheet" type="text/css" href="https://mydomain.com/light-lite/styles.css">
 ```
+
+## For LightSpace Theme
+```
+<link rel="stylesheet" type="text/css" href="https://mydomain.com/lightspace-blue/panel.css">
+```
+
 
 It will be now deployed and used in VistaPanel. Congratulations, you have just changed your theme!
 # Main Website and Server
