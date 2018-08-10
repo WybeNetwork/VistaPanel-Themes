@@ -31,7 +31,7 @@ The codes in there are just examples using the Light and Light-Lite theme, you m
 
 It will be now deployed and used in VistaPanel. Congratulations, you have just changed your theme!
 # Main Website and Server
-The project's main website is currently located at https://vpanel.gq. <br/>
+The project's main website is currently located at https://vpthemes.win. <br/>
 Our main Discord Server is at:
 https://discord.gg/nCfHUUS
 
