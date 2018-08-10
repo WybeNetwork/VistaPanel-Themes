@@ -1192,7 +1192,7 @@ input#txtQuickFind:hover {
     -ms-border-radius: 17.5px;
     -o-border-radius: 17.5px;
     border-radius: 17.5px;
-    background: url('https://cdn.vpanel.gq/img/feature_search.png') no-repeat 13px 13px #F6F6F6;
+    background: url('/img/feature_search.png') no-repeat 13px 13px #F6F6F6;
     margin-right: 15px;
 }
 
@@ -1207,7 +1207,7 @@ html[dir="rtl"] input#txtQuickFind:hover {
     -ms-border-radius: 17.5px;
     -o-border-radius: 17.5px;
     border-radius: 17.5px;
-    background: url('https://cdn.vpanel.gq/img/feature_search.png') no-repeat 152px 13px #F6F6F6;
+    background: url('/img/feature_search.png') no-repeat 152px 13px #F6F6F6;
     margin-left: 15px;
     text-indent: 35px;
     margin-right: auto;
