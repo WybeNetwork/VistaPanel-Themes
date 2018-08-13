@@ -148,7 +148,23 @@ a.btn:visited {
   color: #ffffff;
   outline: none!important;
 }
-
+#content .btn-primary,
+.yui-dialog .btn-primary, .body-content .btn-info, .body-content .btn-warning, #content .btn-info {
+    background: linear-gradient(to right, #3598DB , #61bcf9 , #3598DB );;
+    border-color: linear-gradient(to right, #3598DB , #61bcf9 , #3598DB );;
+    -webkit-box-shadow: inset 0 0px linear-gradient(to right, #3598DB , #61bcf9 , #3598DB );;
+    box-shadow: inset 0 0px linear-gradient(to right, #3598DB , #61bcf9 , #3598DB );;
+    color: #fff!important;
+    border-width: 1px;
+}
+#content .btn-info:hover {
+    background: linear-gradient(to bottom, #3e566d , #3598DB , #293949 );
+    border-color: linear-gradient(to right, #3e566d , #3598DB , #293949 );;
+    -webkit-box-shadow: inset 0 0px linear-gradient(to right, #3e566d , #3598DB , #293949 );;
+    box-shadow: inset 0 0px linear-gradient(to right, #3e566d , #3598DB , #293949 );;
+    color: #fff!important;
+    border-width: 1px;
+}
 .btn-default,
 a.btn-default:link,
 a.btn-default:visited {
@@ -611,10 +627,76 @@ fieldset[disabled] .btn-warning.active {
   border-radius: 3px;
 }
 
+#-group .ng-pristine {
+    padding: 20px 25px;
+}
+#-group .ng-pristine input[name="domain"], #-group .ng-pristine select[name="ext"] {
+    float:left;
+    width: 74%;
+    height: 34px;
+    padding: 6px 12px;
+    margin-right:3px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #ffffff;
+    background-image: none;
+    border: 1px solid #d9e0e2;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;   
+}
+#-group .ng-pristine input[name="domain"]:hover, #-group .ng-pristine select[name="ext"]:hover {
+    background-color: #fff;
+    border-color: #E5E5E5;
+}
+#-group .ng-pristine input[name="domain"]:focus, #-group .ng-pristine select[name="ext"]:focus {
+	border-color: #3598DB;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px #d9e0e2,0 0 8px rgba(0,0,255,0.3);
+    box-shadow: inset 0 1px 1px #d9e0e2,0 0 8px rgba(0,0,255,0.3);
+}
+#-group .ng-pristine select[name="ext"] {
+    width:12%;
+}
+
 #-group iframe {
     width: 100%;
 }
 
+@media (min-width: 992px) and (max-width: 1199px) {
+    #-group .ng-pristine input[name="domain"] {
+        width:69%;
+    }
+}
+@media (min-width: 769px) and (max-width: 991px) {
+#-group .ng-pristine input[name="domain"] {
+        width:70%;
+    }
+}
+@media (max-width: 768px) {
+    #-group .ng-pristine input[name="domain"] {
+        width:60%;
+    }
+}
+@media (max-width: 480px) {
+ #-group .ng-pristine input[name="domain"] {
+        width:50%;
+    }
+    #-group .ng-pristine select[name="ext"] {
+        width:100%;
+    }   
+}
+@media (max-width: 479px) {
+    #-group .ng-pristine input[name="domain"] {
+        width:100%;
+    }
+    #-group .ng-pristine select[name="ext"] {
+        width:100%;
+    }
+}
 .dropdown-menu {
   background-color: #F6F6F6;
   border-color: #cbd0d3;
@@ -1192,7 +1274,7 @@ input#txtQuickFind:hover {
     -ms-border-radius: 17.5px;
     -o-border-radius: 17.5px;
     border-radius: 17.5px;
-    background: url('/img/feature_search.png') no-repeat 13px 13px #F6F6F6;
+    background: url('https://i.imgur.com/UaGy2C6.png') no-repeat 13px 13px #F6F6F6;
     margin-right: 15px;
 }
 
@@ -1207,7 +1289,7 @@ html[dir="rtl"] input#txtQuickFind:hover {
     -ms-border-radius: 17.5px;
     -o-border-radius: 17.5px;
     border-radius: 17.5px;
-    background: url('/img/feature_search.png') no-repeat 152px 13px #F6F6F6;
+    background: url('https://i.imgur.com/UaGy2C6.png') no-repeat 152px 13px #F6F6F6;
     margin-left: 15px;
     text-indent: 35px;
     margin-right: auto;
@@ -1305,12 +1387,12 @@ html[dir="rtl"] div.btn-group div.tooltip {
 }
 
 header#masterAppContainer .btn-group {
-	margin-right: 0;
+	margin-right: 0px;
 }
 
 html[dir="rtl"] header#masterAppContainer .btn-group {
 	margin-right: auto;
-	margin-left: 0;
+	margin-left: 0px;
 }
 
 body.webmail #btnUserPref, 
@@ -1625,7 +1707,7 @@ footer {
 }
 
 #txtCpanelVersion:before {
-	content: "cPanel, Inc. © 2018 All Rights Reserved | Designed by MAHOfficial & VPT Team ";
+	content: "cPanel, Inc. © 2018 All Rights Reserved | Designed by VPThemes.win ";
 	font-size: 11px;
 	color: #fff;
 }
