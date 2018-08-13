@@ -611,8 +611,75 @@ fieldset[disabled] .btn-warning.active {
   border-radius: 3px;
 }
 
+#-group .ng-pristine {
+    padding: 20px 25px;
+}
+#-group .ng-pristine input[name="domain"], #-group .ng-pristine select[name="ext"] {
+    float:left;
+    width: 74%;
+    height: 34px;
+    padding: 6px 12px;
+    margin-right:3px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #ffffff;
+    background-image: none;
+    border: 1px solid #d9e0e2;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;   
+}
+#-group .ng-pristine input[name="domain"]:hover, #-group .ng-pristine select[name="ext"]:hover {
+    background-color: #fff;
+    border-color: #E5E5E5;
+}
+#-group .ng-pristine input[name="domain"]:focus, #-group .ng-pristine select[name="ext"]:focus {
+	border-color: #3598DB;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px #d9e0e2,0 0 8px rgba(0,0,255,0.3);
+    box-shadow: inset 0 1px 1px #d9e0e2,0 0 8px rgba(0,0,255,0.3);
+}
+#-group .ng-pristine select[name="ext"] {
+    width:12%;
+}
+
 #-group iframe {
     width: 100%;
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    #-group .ng-pristine input[name="domain"] {
+        width:69%;
+    }
+}
+@media (min-width: 769px) and (max-width: 991px) {
+#-group .ng-pristine input[name="domain"] {
+        width:70%;
+    }
+}
+@media (max-width: 768px) {
+    #-group .ng-pristine input[name="domain"] {
+        width:60%;
+    }
+}
+@media (max-width: 480px) {
+ #-group .ng-pristine input[name="domain"] {
+        width:50%;
+    }
+    #-group .ng-pristine select[name="ext"] {
+        width:100%;
+    }   
+}
+@media (max-width: 479px) {
+    #-group .ng-pristine input[name="domain"] {
+        width:100%;
+    }
+    #-group .ng-pristine select[name="ext"] {
+        width:100%;
+    }
 }
 
 .dropdown-menu {
@@ -1192,7 +1259,7 @@ input#txtQuickFind:hover {
     -ms-border-radius: 17.5px;
     -o-border-radius: 17.5px;
     border-radius: 17.5px;
-    background: url('/img/feature_search.png') no-repeat 13px 13px #F6F6F6;
+    background: url('/feature_search.png') no-repeat 13px 13px #F6F6F6;
     margin-right: 15px;
 }
 
@@ -1207,7 +1274,7 @@ html[dir="rtl"] input#txtQuickFind:hover {
     -ms-border-radius: 17.5px;
     -o-border-radius: 17.5px;
     border-radius: 17.5px;
-    background: url('/img/feature_search.png') no-repeat 152px 13px #F6F6F6;
+    background: url('/feature_search.png') no-repeat 152px 13px #F6F6F6;
     margin-left: 15px;
     text-indent: 35px;
     margin-right: auto;
@@ -1959,7 +2026,7 @@ body.webmail #wrap {
 	padding-bottom: 0;
 }
 
-.icon-attracta_getingoogle,.icon-attracta_increasewebsitetraffic,.icon-attracta_linkbuilding,.icon-attracta_rankcheck,.icon-attracta_seoforresellers,.icon-attracta_seotools,.icon-attracta_socialmm2,.icon-attracta_wpthemes,.icon-attracta_wpthemes2,.icon-attracta_wpvisual,.icon-lvephpsel,.icon-rvsitebuilder,.icon-soft_div_icons,.icon-softaculous { background-image: url('/sprites/icon_spritemap.png'); background-repeat: no-repeat; }
+.icon-attracta_getingoogle,.icon-attracta_increasewebsitetraffic,.icon-attracta_linkbuilding,.icon-attracta_rankcheck,.icon-attracta_seoforresellers,.icon-attracta_seotools,.icon-attracta_socialmm2,.icon-attracta_wpthemes,.icon-attracta_wpthemes2,.icon-attracta_wpvisual,.icon-lvephpsel,.icon-rvsitebuilder,.icon-soft_div_icons,.icon-softaculous { background-image: url('/icon_spritemap.png'); background-repeat: no-repeat; }
 .icon-attracta_getingoogle { background-position: -5px -5px; width: 48px; height: 48px; }
 .icon-attracta_increasewebsitetraffic { background-position: -63px -5px; width: 48px; height: 48px; }
 .icon-attracta_linkbuilding { background-position: -5px -63px; width: 48px; height: 48px; }
@@ -1973,7 +2040,7 @@ body.webmail #wrap {
 .icon-lvephpsel { background-position: -179px -63px; width: 48px; height: 48px; }
 .icon-rvsitebuilder { background-position: -179px -121px; width: 48px; height: 48px; }
 .icon-soft_div_icons { background-position: -5px -179px; width: 48px; height: 48px; }
-.icon-softaculous { background-position: -63px -179px; width: 48px; height: 48px; }.icon-addon_domains,.icon-address_importer,.icon-advanced_zone_editor,.icon-aliases,.icon-analog_stats,.icon-anonymous_ftp,.icon-apache_handlers,.icon-apache_spam_assassin,.icon-api_shell,.icon-application_manager,.icon-archive,.icon-authentication,.icon-autoresponders,.icon-awstats,.icon-backup,.icon-backup_wizard,.icon-bandwidth,.icon-boxtrapper,.icon-calendar_and_contacts,.icon-change_language,.icon-change_password,.icon-change_style,.icon-cloudflare,.icon-contact_information,.icon-cpu_and_concurrent_connection_usage,.icon-cron_jobs,.icon-default_address,.icon-directory_privacy,.icon-disk_usage,.icon-email_accounts,.icon-email_disk_usage,.icon-email_filters,.icon-email_routing,.icon-encryption,.icon-error_pages,.icon-errors,.icon-file_manager,.icon-forwarders,.icon-ftp_accounts,.icon-ftp_connections,.icon-global_email_filters,.icon-greylisting,.icon-hotlink_protection,.icon-images,.icon-indexes,.icon-ip_blocker,.icon-leech_protection,.icon-mailing_lists,.icon-metrics_editor,.icon-mime_types,.icon-mod_security,.icon-multiphp_ini_editor,.icon-multiphp_manager,.icon-mysql_database_wizard,.icon-mysql_databases,.icon-optimize_website,.icon-perl_modules,.icon-php,.icon-php_my_admin,.icon-php_pear_packages,.icon-php_pg_admin,.icon-postgresql_database_wizard,.icon-postgresql_databases,.icon-raw_access,.icon-redirects,.icon-remote_mysql,.icon-ruby_gems,.icon-ruby_on_rails,.icon-security_policy,.icon-simple_zone_editor,.icon-site_publisher,.icon-site_software,.icon-ssh_access,.icon-ssl_tls,.icon-subdomains,.icon-tls_status,.icon-tls_wizard,.icon-track_delivery,.icon-track_dns,.icon-two_factor_authentication,.icon-user_manager,.icon-virus_scanner,.icon-visitors,.icon-web_disk,.icon-web_host_manager,.icon-webalizer,.icon-webalizer_ftp,.icon-zone_editor { background-image: url(/sprites/icon_spritemap.svg); background-repeat: no-repeat; }
+.icon-softaculous { background-position: -63px -179px; width: 48px; height: 48px; }.icon-addon_domains,.icon-address_importer,.icon-advanced_zone_editor,.icon-aliases,.icon-analog_stats,.icon-anonymous_ftp,.icon-apache_handlers,.icon-apache_spam_assassin,.icon-api_shell,.icon-application_manager,.icon-archive,.icon-authentication,.icon-autoresponders,.icon-awstats,.icon-backup,.icon-backup_wizard,.icon-bandwidth,.icon-boxtrapper,.icon-calendar_and_contacts,.icon-change_language,.icon-change_password,.icon-change_style,.icon-cloudflare,.icon-contact_information,.icon-cpu_and_concurrent_connection_usage,.icon-cron_jobs,.icon-default_address,.icon-directory_privacy,.icon-disk_usage,.icon-email_accounts,.icon-email_disk_usage,.icon-email_filters,.icon-email_routing,.icon-encryption,.icon-error_pages,.icon-errors,.icon-file_manager,.icon-forwarders,.icon-ftp_accounts,.icon-ftp_connections,.icon-global_email_filters,.icon-greylisting,.icon-hotlink_protection,.icon-images,.icon-indexes,.icon-ip_blocker,.icon-leech_protection,.icon-mailing_lists,.icon-metrics_editor,.icon-mime_types,.icon-mod_security,.icon-multiphp_ini_editor,.icon-multiphp_manager,.icon-mysql_database_wizard,.icon-mysql_databases,.icon-optimize_website,.icon-perl_modules,.icon-php,.icon-php_my_admin,.icon-php_pear_packages,.icon-php_pg_admin,.icon-postgresql_database_wizard,.icon-postgresql_databases,.icon-raw_access,.icon-redirects,.icon-remote_mysql,.icon-ruby_gems,.icon-ruby_on_rails,.icon-security_policy,.icon-simple_zone_editor,.icon-site_publisher,.icon-site_software,.icon-ssh_access,.icon-ssl_tls,.icon-subdomains,.icon-tls_status,.icon-tls_wizard,.icon-track_delivery,.icon-track_dns,.icon-two_factor_authentication,.icon-user_manager,.icon-virus_scanner,.icon-visitors,.icon-web_disk,.icon-web_host_manager,.icon-webalizer,.icon-webalizer_ftp,.icon-zone_editor { background-image: url(/icon_spritemap.svg); background-repeat: no-repeat; }
 .icon-addon_domains { background-size: 4656px 48px; background-position: -0px 0; width: 48px; height: 48px; }
 .icon-address_importer { background-size: 4656px 48px; background-position: -53px 0; width: 48px; height: 48px; }
 .icon-advanced_zone_editor { background-size: 4656px 48px; background-position: -106px 0; width: 48px; height: 48px; }
