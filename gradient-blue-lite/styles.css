@@ -149,6 +149,24 @@ a.btn:visited {
   outline: none!important;
 }
 
+#content .btn-primary,
+.yui-dialog .btn-primary, .body-content .btn-info, .body-content .btn-warning, #content .btn-info {
+    background: linear-gradient(to right, #3598DB , #61bcf9 , #3598DB );;
+    border-color: linear-gradient(to right, #3598DB , #61bcf9 , #3598DB );;
+    -webkit-box-shadow: inset 0 0px linear-gradient(to right, #3598DB , #61bcf9 , #3598DB );;
+    box-shadow: inset 0 0px linear-gradient(to right, #3598DB , #61bcf9 , #3598DB );;
+    color: #fff!important;
+    border-width: 1px;
+}
+#content .btn-info:hover {
+    background: linear-gradient(to bottom, #3e566d , #3598DB , #293949 );
+    border-color: linear-gradient(to right, #3e566d , #3598DB , #293949 );;
+    -webkit-box-shadow: inset 0 0px linear-gradient(to right, #3e566d , #3598DB , #293949 );;
+    box-shadow: inset 0 0px linear-gradient(to right, #3e566d , #3598DB , #293949 );;
+    color: #fff!important;
+    border-width: 1px;
+}
+
 .btn-default,
 a.btn-default:link,
 a.btn-default:visited {
