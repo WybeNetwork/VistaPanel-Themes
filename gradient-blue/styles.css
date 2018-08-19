@@ -4,6 +4,7 @@
 	*   Theme Name: Gradient Blue
 	*   Author: MAHOfficial & VPT (Vista Panel Themes) Team
 	*   Author URL: https://mahofficial.win
+	*   Version: 1.2
 	*   Github Project URL: https://github.com/PCTipsGR/VistaPanel-Customizations
 	*   Official Website URL: https://vpanel.gq
 	*   This file is licensed under MIT
@@ -1274,7 +1275,7 @@ input#txtQuickFind:hover {
     -ms-border-radius: 17.5px;
     -o-border-radius: 17.5px;
     border-radius: 17.5px;
-    background: url('https://i.imgur.com/UaGy2C6.png') no-repeat 13px 13px #F6F6F6;
+    background: url('feature_search.png') no-repeat 13px 13px #F6F6F6;
     margin-right: 15px;
 }
 
@@ -1289,7 +1290,7 @@ html[dir="rtl"] input#txtQuickFind:hover {
     -ms-border-radius: 17.5px;
     -o-border-radius: 17.5px;
     border-radius: 17.5px;
-    background: url('https://i.imgur.com/UaGy2C6.png') no-repeat 152px 13px #F6F6F6;
+    background: url('feature_search_x2.png') no-repeat 152px 13px #F6F6F6;
     margin-left: 15px;
     text-indent: 35px;
     margin-right: auto;
