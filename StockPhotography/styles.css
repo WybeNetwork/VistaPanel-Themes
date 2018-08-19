@@ -6,7 +6,7 @@ b, strong, label {font-weight:500;}
 header .navbar-header .navbar-brand .brand-name {font-weight:200;}
 
 body {
-	background: url(/styled/current_style/buildings-high-rise-manhattan-2324.jpg) no-repeat center center fixed;
+	background: url(buildings-high-rise-manhattan-2324.jpg) no-repeat center center fixed;
 	/* SOURCE: http://www.pexels.com/photo/2324/ photo by Philipp Henzler, unsplash.com */
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
