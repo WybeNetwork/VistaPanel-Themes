@@ -1,4 +1,4 @@
-MIT ATTRIBUTION License
+MIT Attribution License
 
 Copyright (c) 2018 VPT
 
