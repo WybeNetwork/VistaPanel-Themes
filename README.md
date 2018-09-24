@@ -45,6 +45,7 @@ https://discord.gg/4DHJvHR
 Copyright 2018 VPT. Some Rights Reserved, check the [LICENSE](https://github.com/VPTOfficial/VistaPanel-Themes/blob/master/LICENSE.md) for more details.
 
 Credits for the themes go to:
+
 [MAHOfficial](https://github.com/mahofficial/) for providing the cPanel and Gradient Blue themes
 
 [Arcenas090](https://github.com/arcenas090) for Gradient Purple and Gradient Green Themes
@@ -55,6 +56,3 @@ Credits for the themes go to:
 [einet](http://www.byet.net/index.php?/profile/519334-einet/) for the Light-Lite and Dark-Lite themes
 
 [WoltBase](https://www.woltbase.com) for the free Christmas theme
-
-
-Thank you for participating and downloading our themes! Happy customizing!
