@@ -1,5 +1,5 @@
 # A) Reddish - VistaPanel Theme
-A gradient reddish theme for VistaPanel.
+A gradient red theme for VistaPanel.
 
 # B) Installation
 Download the theme you like and upload the files to your website.
@@ -29,6 +29,6 @@ Discord : https://neotidev.cf/discord
 
 Website : https://neotidev.cf
 
-Hosting : https://neoticloud.cf
+Hosting : --disabled for now--
 
 E-Mail  : support@neotidev.cf
