@@ -40,7 +40,7 @@ CDN for themes can be located at https://cdn.vpthemes.win/
 Official Detail Docs for Themes can be located at https://docs.vpthemes.win/
 
 Our main Discord Server is at:
-https://discord.gg/4DHJvHR
+https://discord.gg/5FtK7NN
 # Copyright Info and Credits
 Copyright 2018 VPT. Some Rights Reserved, check the [LICENSE](https://github.com/VPTOfficial/VistaPanel-Themes/blob/master/LICENSE.md) for more details.
 
