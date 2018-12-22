@@ -73,15 +73,6 @@ div.cjt_status_bar_success,
 #main {
 	padding-left: 15px;
 }
-#lnkHeaderHome #imgLogo {
-    width:94px;
-    height:20px;
-    background:none!important;
-    content:url('logo.svg');
-}
-#lnkHeaderHome font {
-    display:none;
-}
 footer {
 	padding-left: 61px!important;
 }
