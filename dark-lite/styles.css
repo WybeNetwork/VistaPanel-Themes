@@ -99,15 +99,6 @@ form input[value="Go"] {
 #main {
 	padding-left: 15px;
 }
-#lnkHeaderHome #imgLogo {
-    width:94px;
-    height:20px;
-    background:none!important;
-    content:url('logo.svg');
-}
-#lnkHeaderHome font {
-    display:none;
-}
 .container-fluid {
 	padding-left:15px;
 }
