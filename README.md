@@ -48,14 +48,14 @@ Copyright 2018 VPT. Some Rights Reserved, check the [LICENSE](https://github.com
 
 Credits for the themes go to:
 
-[MAHOfficial](https://github.com/mahofficial/) for providing the cPanel and Gradient Blue themes
+[MAHOfficial](https://github.com/mahofficial) for providing the cPanel and Gradient Blue themes
 
 [Arcenas090](https://github.com/arcenas090) for Gradient Purple and Gradient Green Themes
 
-[yagizhan49](https://github.com/yagizhan49/) for Gradient Red Theme
+[yagizhan49](https://github.com/yagizhan49) for Gradient Red Theme
 
 [Adam](https://github.com/adam/) for the themes from [Paper Lantern Customizations](https://github.com/CpanelInc/Paper_Lantern_Customizations)  
 
-[einet](http://www.byet.net/index.php?/profile/519334-einet/) for the Light-Lite and Dark-Lite themes
+[einet](https://github.com/eiinet) for the Light-Lite and Dark-Lite themes
 
 [WoltBase](https://www.woltbase.com) for the free Christmas theme
