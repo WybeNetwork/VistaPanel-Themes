@@ -8,7 +8,7 @@ I recommend going with the [Christmas](christmas) theme right now, it is just th
 # Installation Guide
 You must download the folders first and then upload them to your website. 
 
-In case you don't want or can't afford to do that, we have installed all the themes in our CDN, just replace mydomain.com in the code with cdn.vpthemes.win.
+In case you don't want or can't afford to do that, we have installed all the themes in our CDN, just replace mydomain.com in the code with cdn.vptofficial.me.
 
 # How to use and deploy into VistaPanel
 You must paste the code included below to your header and footer section of control panel adverts, which can be found from your MyOwnFreeHost panel.
@@ -35,11 +35,11 @@ You can find it's name written at the folder, and it is **case sensitive**.
 It will be now deployed and used in VistaPanel. Congratulations, you have just changed your theme!  
 
 # Main Website and Server
-The project's main website is currently located at https://vpthemes.win/
+The project's main website is currently located at https://vptofficial.me/
 
-CDN for themes can be located at https://cdn.vpthemes.win/
+CDN for themes can be located at https://cdn.vptofficial.me/
 
-Our Docs for Themes can be located at https://docs.vpthemes.win/. Don't worry, we have tried to make it as simple as possible :smile:
+Our Docs for Themes can be located at https://docs.vptofficial.me/. Don't worry, we have tried to make it as simple as possible :smile:
 
 Our main Discord Server is at:
 https://discord.gg/VsEm25e
