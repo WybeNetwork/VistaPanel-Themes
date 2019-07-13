@@ -3,8 +3,6 @@ This project contains some new themes for VistaPanel, a Web Hosting Panel create
 
 These themes include the popular PaperLantern Default Themes (except Retro), some additional ones that were introduced at the beggining of cPanel X3 deprecation, and some custom ones designed for VistaPanel specifically.
 
-I recommend going with the [Christmas](christmas) theme right now, it is just the theme you need!
-
 # Installation Guide
 You must download the folders first and then upload them to your website. 
 
@@ -43,8 +41,9 @@ Our Docs for Themes can be located at https://docs.vptofficial.me/. Don't worry,
 
 Our main Discord Server is at:
 https://discord.gg/VsEm25e
+
 # Copyright Info and Credits
-Copyright 2018 VPT. Some Rights Reserved, check the [LICENSE](https://github.com/VPTOfficial/VistaPanel-Themes/blob/master/LICENSE.md) for more details.
+Copyright 2019 VPT. Some Rights Reserved, check the [LICENSE](https://github.com/VPTOfficial/VistaPanel-Themes/blob/master/LICENSE.md) for more details.
 
 Credits for the themes go to:
 
