@@ -33,14 +33,14 @@ You can find it's name written at the folder, and it is **case sensitive**.
 It will be now deployed and used in VistaPanel. Congratulations, you have just changed your theme!  
 
 # Main Website and Server
-The project's main website is currently located at https://vptofficial.me/. **(Currently Down)**
+The project's main website is currently located at ~~https://vptofficial.me/~~ (Down). **(Currently Down)**
 
-CDN for themes can be located at https://cdn.vptofficial.me/.
+CDN for themes can be located at ~~https://cdn.vptofficial.me/~~ https://millie.vizudev.net/wybenetwork/ (Sponsered by Friend).
 
-Our Docs for Themes can be located at https://docs.vptofficial.me/. Don't worry, we have tried to make it as simple as possible :smile:
+Our Docs for Themes can be located at ~~https://docs.vptofficial.me/~~ (Down). Don't worry, we have tried to make it as simple as possible :smile:
 
 Our main Discord Server is at:
-https://discord.gg/TCspBav
+https://discord.gg/zArW8kC
 
 # Copyright Info and Credits
 Copyright 2019 Wybe Network. Some Rights Reserved, check the [LICENSE](LICENSE.md) for more details.
