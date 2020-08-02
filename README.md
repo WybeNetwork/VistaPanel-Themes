@@ -6,7 +6,7 @@ These themes include the popular PaperLantern Default Themes (except Retro), som
 # Installation Guide
 You must download the folders first and then upload them to your website. 
 
-In case you don't want or can't afford to do that, we have installed all the themes in our CDN, just replace mydomain.com in the code with cdn.vptofficial.me.
+In case you don't want or can't afford to do that, we have installed all the themes in our CDN, just replace mydomain.com in the code with ~~cdn.vptofficial.me~~ millie.vizudev.net/wybenetwork.
 
 # How to use and deploy into VistaPanel
 You must paste the code included below to your header and footer section of control panel adverts, which can be found from your MyOwnFreeHost panel.
