@@ -6,7 +6,7 @@ These themes include the popular PaperLantern Default Themes (except Retro), som
 # Installation Guide
 You must download the folders first and then upload them to your website. 
 
-In case you don't want or can't afford to do that, we have installed all the themes in our CDN, just replace mydomain.com in the code with ~~cdn.vptofficial.me~~ millie.vizudev.net/wybenetwork.
+In case you don't want or can't afford to do that, we have installed all the themes in our CDN, just replace mydomain.com in the code with ~~cdn.vptofficial.me~~ vpt.cdn.wybenetwork.com.
 
 # How to use and deploy into VistaPanel
 You must paste the code included below to your header and footer section of control panel adverts, which can be found from your MyOwnFreeHost panel.
@@ -33,17 +33,17 @@ You can find it's name written at the folder, and it is **case sensitive**.
 It will be now deployed and used in VistaPanel. Congratulations, you have just changed your theme!  
 
 # Main Website and Server
-The project's main website is currently located at ~~https://vptofficial.me/~~. **(Currently Down)**
+The project's main website is currently located at ~~https://vptofficial.me/~~ https://wybenetwork.com/. **(Under Construction)**
 
-CDN for themes can be located at ~~https://cdn.vptofficial.me/~~ https://millie.vizudev.net/wybenetwork/ (Sponsered by Friend).
+CDN for themes can be located at ~~https://cdn.vptofficial.me/~~ https://vpt.cdn.wybenetwork.com/.
 
-Our Docs for Themes can be located at ~~https://docs.vptofficial.me/~~ **(Currently Down)**. Don't worry, we have tried to make it as simple as possible :smile:
+Our Docs for Themes can be located at ~~https://docs.vptofficial.me/~~ https://docs.wybenetwork.com/ **(Under Construction)**. Don't worry, we have tried to make it as simple as possible :smile:
 
 Our main Discord Server is at:
 https://discord.gg/zArW8kC
 
 # Copyright Info and Credits
-Copyright 2019 Wybe Network. Some Rights Reserved, check the [LICENSE](LICENSE.md) for more details.
+Copyright 2019-2021 Wybe Network. Some Rights Reserved, check the [LICENSE](LICENSE.md) for more details.
 
 Credits for the themes go to:
 
