@@ -37,7 +37,7 @@ The project's main website is currently located at ~~https://vptofficial.me/~~ h
 
 CDN for themes can be located at ~~https://cdn.vptofficial.me/~~ https://vpt.cdn.wybenetwork.com/.
 
-Our Docs for Themes can be located at ~~https://docs.vptofficial.me/~~ https://docs.wybenetwork.com/ **(Under Construction)**. Don't worry, we have tried to make it as simple as possible :smile:
+Our Docs for Themes can be located at ~~https://docs.vptofficial.me/~~ https://docs.wybenetwork.com/. Don't worry, we have tried to make it as simple as possible :smile:
 
 Our main Discord Server is at:
 https://discord.gg/zArW8kC
