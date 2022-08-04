@@ -33,28 +33,37 @@ You can find it's name written at the folder, and it is **case sensitive**.
 It will be now deployed and used in VistaPanel. Congratulations, you have just changed your theme!  
 
 # Main Website and Server
-The project's main website is currently located at ~~https://vptofficial.me/~~ https://wybenetwork.com/. **(Under Construction)**
+The project's main website is currently located at https://wybenetwork.com/. **(Under Construction)**
 
-CDN for themes can be located at ~~https://cdn.vptofficial.me/~~ https://vpt.cdn.wybenetwork.com/.
+CDN for themes can be located at https://vpt.cdn.wybenetwork.com/.
 
-Our Docs for Themes can be located at ~~https://docs.vptofficial.me/~~ https://docs.wybenetwork.com/. Don't worry, we have tried to make it as simple as possible :smile:
+Our Docs for Themes can be located at https://docs.wybenetwork.com/. Don't worry, we have tried to make it as simple as possible :smile:
 
 Our main Discord Server is at:
 https://discord.gg/zArW8kC
 
 # Copyright Info and Credits
-Copyright 2019-2021 Wybe Network. Some Rights Reserved, check the [LICENSE](LICENSE.md) for more details.
+Copyright 2019-2022 Wybe Network. Some Rights Reserved, check the [LICENSE](LICENSE.md) for more details.
 
 Credits for the themes go to:
 
-[MAHOfficial](https://github.com/mahofficial) for providing the cPanel and Gradient Blue themes
+[MAHOfficial](https://github.com/mahofficial) for the Gradient Blue theme, and for providing the cPanel themes.
 
-[Arcenas090](https://github.com/arcenas090) for Gradient Purple and Gradient Green Themes
+[Arc](https://github.com/zero-arc) for the Gradient Purple and Gradient Green themes.
 
-[yagizhan49](https://github.com/yagizhan49) for Gradient Red Theme
+[evrifaessa](https://github.com/evrifaessa) for the Gradient Red theme.
 
-[Adam](https://github.com/adam/) for the themes from [Paper Lantern Customizations](https://github.com/CpanelInc/Paper_Lantern_Customizations)  
+[Adam](https://github.com/adam/) for the themes from [Paper Lantern Customizations](https://github.com/CpanelInc/Paper_Lantern_Customizations).  
 
-[einet](https://github.com/eiinet) for the Light-Lite and Dark-Lite themes
+[einet](https://www.byet.net/index.php?/profile/519334-einet/) for the Light-Lite and Dark-Lite themes.
 
-[WoltBase](https://www.woltbase.com) for the free Christmas theme
+[WoltBase](https://applications.cpanel.net/listings/index/user/user:WoltBase) for the free Christmas theme.
+
+[creatort](https://github.com/creatort) for the Modified Discord and Space VistaPanel themes, as well as providing the Glass (and one not fully implemented) themes.
+
+[Anyx](https://github.com/4yx) for the Glass and (the not fully implemented) themes.
+
+[You](https://github.com/settings/profile): This could be you! Feel free to create a theme, and [open a Pull Request](https://github.com/WybeNetwork/VistaPanel-Themes/compare) for us to add it! 
+
+Additional credits go to everyone that contributed in fixing issues, maintaining the project, and ensuring everything works as it should, as well as to every contributor:  
+https://github.com/WybeNetwork/VistaPanel-Themes/graphs/contributors
