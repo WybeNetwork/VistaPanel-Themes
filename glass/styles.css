@@ -714,60 +714,60 @@ body #boxes .panel-heading .group-header:before{
     display:inline-block;
     width:25px
 }
-body #boxes .panel-heading .group-files:before{
+body #boxes .panel-heading #files-header:before{
     font-family:"Font Awesome 5 Free";
     font-weight:900;
     content:"\f07c"
 }
-body #boxes .panel-heading .group-databases:before{
+body #boxes .panel-heading #databases-header:before{
     font-family:"Font Awesome 5 Free";
     font-weight:900;
     content:"\f1c0"
 }
-body #boxes .panel-heading .group-domains:before{
+body #boxes .panel-heading #domains-header:before{
     font-family:"Font Awesome 5 Free";
     font-weight:900;
     content:"\f0ac"
 }
-body #boxes .panel-heading .group-email:before{
+body #boxes .panel-heading #email-header:before{
     font-family:"Font Awesome 5 Free";
     font-weight:900;
     content:"\f0e0"
 }
-body #boxes .panel-heading .group-metrics:before{
+body #boxes .panel-heading #metrics-header:before{
     font-family:"Font Awesome 5 Free";
     font-weight:900;
     content:"\f201"
 }
-body #boxes .panel-heading .group-security:before{
+body #boxes .panel-heading #security-header:before{
     font-family:"Font Awesome 5 Free";
     font-weight:900;
     content:"\f3ed"
 }
-body #boxes .panel-heading .group-software:before{
+body #boxes .panel-heading #software-header:before{
     font-family:"Font Awesome 5 Free";
     font-weight:900;
     content:"\f5fc"
 }
-body #boxes .panel-heading .group-advanced:before{
+body #boxes .panel-heading #advanced-header:before{
     font-family:"Font Awesome 5 Free";
     font-weight:900;
     content:"\f085"
 }
-body #boxes .panel-heading .group-preferences:before{
+body #boxes .panel-heading #preferences-header:before{
     font-family:"Font Awesome 5 Free";
     font-weight:900;
     content:"\f1de"
 }
-body #boxes .panel-heading .group-sample_apps:before{
+body #boxes .panel-heading #soft_div-header:before{
     font-family:"Font Awesome 5 Free";
     font-weight:900;
-    content:"\f492"
+    content:"\f135"
 }
-body #boxes .panel-heading .group-applications:before{
+body #boxes .panel-heading #support-header:before{
     font-family:"Font Awesome 5 Free";
     font-weight:900;
-    content:"\f009"
+    content:"\f590"
 }
 body #boxes .panel-heading .group-header-indicator{
     color:#8f9bb3
