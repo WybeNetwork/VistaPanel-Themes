@@ -1,7 +1,7 @@
 # Welcome to VistaPanel Themes
 This project contains some new themes for VistaPanel, a Web Hosting Panel created by iFastNet.
 
-These themes include the popular PaperLantern Default Themes (except Retro), some additional ones that were introduced at the beggining of cPanel X3 deprecation, and some custom ones designed for VistaPanel specifically.
+These themes include the popular PaperLantern Default Themes, some additional ones that were introduced at the beggining of cPanel X3 deprecation, and some custom ones designed for VistaPanel specifically.
 
 # Installation Guide
 You must download the folders first and then upload them to your website. 
@@ -59,9 +59,9 @@ Credits for the themes go to:
 
 [WoltBase](https://applications.cpanel.net/listings/index/user/user:WoltBase) for the free Christmas theme.
 
-[creatort](https://github.com/creatort) for the Modified Discord and Space VistaPanel themes, as well as providing the Glass (and one not fully implemented) themes.
+[creatort](https://github.com/creatort) for the Modified Discord and Space VistaPanel themes, as well as providing the Glass and Retro themes.
 
-[Anyx](https://github.com/4yx) for the Glass and (the not fully implemented) themes.
+[Anyx](https://github.com/4yx) for the Glass and Retro themes.
 
 [You](https://github.com/settings/profile): This could be you! Feel free to create a theme, and [open a Pull Request](https://github.com/WybeNetwork/VistaPanel-Themes/compare) for us to add it! 
 
