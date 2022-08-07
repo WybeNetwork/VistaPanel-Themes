@@ -1,0 +1,698 @@
+body {
+    font-family: verdana, arial, helvetica, sans-serif;
+    line-height: inherit;
+    font-size: 12px;
+    background-color: #e6e6e6;
+    background-image: url("img/ui_sprites_bg_snap_to_smallest_width.png");
+    background-repeat: repeat-x;
+    padding-top: 10px;
+    background-position: 0 -1609px;
+}
+
+h1,
+h2,
+.h1,
+.h2 {
+    font-family: verdana, arial, helvetica, sans-serif;
+    line-height: inherit;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+h3,
+.h3 {
+    font-family: verdana, arial, helvetica, sans-serif;
+    line-height: inherit;
+    margin-top: 5px;
+}
+
+h4,
+h5,
+h6,
+.h4,
+.h5,
+.h6 {
+    font-family: verdana, arial, helvetica, sans-serif;
+    line-height: inherit;
+}
+
+a {
+    color: #014d5f;
+}
+
+a:hover {
+    color: #f3960b;
+}
+
+table table {
+    border: none;
+}
+
+tbody {
+    font-size: 10px !important;
+}
+
+th {
+    font-size: 12px;
+    font-weight: bold;
+    padding: 4px;
+}
+
+aside {
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.description {
+    font-style: italic;
+}
+
+/* Wrapper styles */
+.cpanel_body, #wrap {
+    /* preventing responsiveness to smaller screen sizes because X3 doesn't do that */
+    width: 750px;
+    padding: 15px 15px 60px 15px;
+    background: url(img/heading_sprites_compleximg.png)
+        top left #ffffff;
+    background-repeat: repeat-x;
+    border: 3px ridge #cccccc;
+}
+
+.cpanel_body #mailFrame {
+    height: calc(100vh - 145px);
+}
+
+#content {
+    /* preventing responsiveness to smaller screen sizes because X3 doesn't do that */
+    width: 713px;
+    margin: 0;
+    margin-top: 80px;
+    padding: 0;
+}
+
+#main {
+    /* preventing responsiveness to smaller screen sizes because X3 doesn't do that */
+    width: 65%;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.form-control {
+    font-size: 12px;
+}
+
+.navbar-brand-logo {
+    left: -20px;
+    top: 20px;
+    height: 50px;
+    position: relative;
+}
+
+.navbar-brand #lnkPoweredByCpanel {
+    display: none !important;
+}
+
+header .container {
+    width: inherit;
+    height: 117px;
+}
+
+header .navbar-inverse {
+    background: none;
+    border: none;
+}
+
+header .navbar-fixed-top {
+    position: relative;
+    top: inherit;
+    width: inherit;
+}
+
+.navbar-cpanel {
+    box-shadow: none;
+}
+
+.navbar-preferences {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: -19px;
+    right: -12px;
+}
+
+html[dir="rtl"] .navbar-preferences {
+    right: -16px;
+}
+
+.navbar-preferences .btn .caret {
+    margin-left: 3px;
+}
+
+.navbar-preferences .btn-primary,
+.navbar-preferences .btn {
+    color: #aaaaaa;
+}
+
+.navbar-preferences .btn,
+.navbar-preferences button {
+    background: none;
+    border: none;
+    margin-right: 0;
+}
+
+.navbar-preferences .btn-group {
+    left: 10px;
+    padding: 5px;
+}
+
+.navbar-preferences .btn-group > .btn {
+    height: 35px !important;
+    color: #aaaaaa !important;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.navbar-preferences .btn-group > .btn:hover,
+.navbar-preferences .btn-group > .btn:focus {
+    color: #000000 !important;
+}
+
+.navbar-overlay-wrapper .navbar-overlay-message {
+    margin-top: 100px;
+}
+
+@media (max-width: 767px) {
+    .navbar-overlay-message {
+        margin-left: -300px;
+    }
+}
+
+#lnkHeaderHome {
+    /* using this for the HOME icon */
+    /* if you're looking for the cpanel masthead, see .header */
+    position: relative;
+    top: -16px;
+    left: -15px;
+    height: 35px;
+    width: 35px;
+    background: url(img/heading_sprites_img.png);
+    background-position: 0 -74px;
+}
+
+#lnkHeaderHome:hover {
+    /* using this for the HOME icon */
+    /* if you're looking for the cpanel masthead, see .header */
+    position: relative;
+    top: -16px;
+    left: -15px;
+    height: 35px;
+    width: 35px;
+    background: url(img/heading_sprites_img.png);
+    background-position: 0 -111px;
+}
+
+html[dir="rtl"] #lnkHeaderHome {
+    left: -25px;
+}
+
+#lnkHeaderLogout {
+    /* using this for the HOME icon */
+    /* if you're looking for the cpanel masthead, see .header */
+    position: relative;
+    top: -4px;
+    height: 35px;
+    width: 35px;
+    background: url(img/heading_sprites_img.png);
+    background-position: 0 -148px;
+}
+
+#lnkHeaderLogout:hover {
+    /* using this for the HOME icon */
+    /* if you're looking for the cpanel masthead, see .header */
+    position: relative;
+    top: -4px;
+    height: 35px;
+    width: 35px;
+    background: url(img/heading_sprites_img.png);
+    background-position: 0 -185px;
+}
+
+#logoutImg {
+    display: none;
+}
+
+#lblLogout,
+#lblUserNameTxt {
+    display: none;
+}
+
+/* preventing the display of company name because X3 doesn't do that */
+span.brand-name {
+    display: none;
+}
+
+/* preventing the switch of the top nav in RTL because X3 doesn't do that */
+html[dir="rtl"] .navbar > .container .navbar-brand {
+    float: left;
+}
+
+/* TODO */
+#quickLinks {
+    display: none;
+}
+
+/* Footer styles */
+footer {
+    margin: 15px auto 0 auto;
+    font-size: 10px;
+    height: 222px;
+    min-height: 222px;
+    background: none;
+    border-top: none;
+}
+
+footer .container {
+    width: 750px;
+}
+
+.nav > li > a:hover,
+.nav > li > a:focus {
+    background: none;
+    text-decoration: underline;
+}
+
+button,
+.btn {
+    font-size: 12px;
+    font-weight: bold;
+    border-style: outset;
+    box-shadow: none;
+    border-radius: 0;
+    border-width: 3px;
+}
+
+span.input-group-addon {
+    border: 0;
+    background: inherit;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+    color: #000000;
+    background: none;
+}
+
+/* Index page style fixes */
+.section-header {
+    width: 100%;
+    padding: 0;
+    background: url(img/tbl-bg.jpg) repeat-x bottom;
+    /* old browsers */
+    background: -moz-linear-gradient(
+        top,
+        rgba(255, 255, 255, 1) 0%,
+        rgba(226, 216, 210, 1) 100%
+    );
+    background: -webkit-gradient(
+        linear,
+        left top,
+        left bottom,
+        color-stop(0%, rgba(255, 255, 255, 1)),
+        color-stop(100%, rgba(226, 216, 210, 1))
+    );
+    background: -webkit-linear-gradient(
+        top,
+        rgba(255, 255, 255, 1) 0%,
+        rgba(226, 216, 210, 1) 100%
+    );
+    background: -o-linear-gradient(
+        top,
+        rgba(255, 255, 255, 1) 0%,
+        rgba(226, 216, 210, 1) 100%
+    );
+    background: -ms-linear-gradient(
+        top,
+        rgba(255, 255, 255, 1) 0%,
+        rgba(226, 216, 210, 1) 100%
+    );
+    background: linear-gradient(
+        to bottom,
+        rgba(255, 255, 255, 1) 0%,
+        rgba(226, 216, 210, 1) 100%
+    );
+    filter: progid:DXImageTransform.Microsoft.gradient(
+            startColorstr="#ffffff",
+            endColorstr="#e2d8d2",
+            GradientType=0
+        );
+    text-align: center;
+    border-radius: 0;
+    border: none;
+    color: #333;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: inherit;
+}
+
+#stats .progress,
+#extended_stats .progress {
+    height: 10px;
+    border-radius: 0;
+    background-color: inherit;
+    border: 1px solid #ccc;
+    box-shadow: none;
+}
+
+#noticeboard .alert {
+    margin-bottom: 10px;
+}
+
+#jump-search {
+    margin-bottom: 13px;
+}
+
+.cellbox {
+    border: 1px solid #cccccc;
+    box-shadow: inherit;
+    margin-bottom: 0;
+    margin-top: 10px;
+    border-radius: 0;
+}
+
+.widget-heading {
+    width: 100%;
+    padding: 0;
+    background: url(img/tbl-bg.jpg) repeat-x bottom;
+    /* old browsers */
+    background: -moz-linear-gradient(
+        top,
+        rgba(255, 255, 255, 1) 0%,
+        rgba(226, 216, 210, 1) 100%
+    );
+    background: -webkit-gradient(
+        linear,
+        left top,
+        left bottom,
+        color-stop(0%, rgba(255, 255, 255, 1)),
+        color-stop(100%, rgba(226, 216, 210, 1))
+    );
+    background: -webkit-linear-gradient(
+        top,
+        rgba(255, 255, 255, 1) 0%,
+        rgba(226, 216, 210, 1) 100%
+    );
+    background: -o-linear-gradient(
+        top,
+        rgba(255, 255, 255, 1) 0%,
+        rgba(226, 216, 210, 1) 100%
+    );
+    background: -ms-linear-gradient(
+        top,
+        rgba(255, 255, 255, 1) 0%,
+        rgba(226, 216, 210, 1) 100%
+    );
+    background: linear-gradient(
+        to bottom,
+        rgba(255, 255, 255, 1) 0%,
+        rgba(226, 216, 210, 1) 100%
+    );
+    filter: progid:DXImageTransform.Microsoft.gradient(
+            startColorstr="#ffffff",
+            endColorstr="#e2d8d2",
+            GradientType=0
+        );
+    text-align: center;
+    border-radius: 0;
+    border: none;
+    border-bottom: 1px solid #cccccc;
+    color: #333;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: inherit;
+}
+
+.cellbox-body {
+    padding-left: 0;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    border-radius: 0;
+}
+
+.item {
+    text-align: center;
+    height: 68px;
+    margin: 0 5px 5px 0;
+    padding: 0;
+    width: 72px;
+    font-size: 10px;
+}
+
+.itemTextWrapper {
+    width: inherit;
+    line-height: 1.2em;
+    padding: 0;
+}
+
+.group-header {
+    width: 100%;
+    font-size: 12px;
+}
+
+#menu_drag_el .item,
+div.anim_proxy .item {
+    float: left;
+    height: 90px;
+    margin: 2px;
+    padding: 0;
+    width: 72px;
+    font-size: 10px;
+    display: block;
+    text-align: center;
+}
+
+#menu_drag_el {
+    opacity: 0.67;
+    filter: alpha(opacity=67); /* IE */
+    font-size: 10px;
+    background-color: white;
+}
+
+#sub {
+    width: 35%;
+}
+
+#sub .form-group {
+    margin-bottom: 0;
+}
+
+#sub .section,
+#resellerToolbox {
+    margin-top: 0;
+    margin-bottom: 10px;
+    box-shadow: inherit;
+    padding-bottom: 0;
+}
+
+#boxes {
+    margin-top: -5px; /* to line up #boxes top border with top of the sidebar */
+}
+
+#newsContent,
+#themeContent,
+#resellerToolboxContent {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 0;
+}
+
+#newsContent {
+    font-size: 10px;
+}
+
+#main .section {
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+#boxes {
+    font-size: 12px;
+}
+
+#news,
+#resellerToolbox,
+#themeSelection,
+#stats-header,
+#stats,
+#stats_extended {
+    box-shadow: none;
+    border: 1px solid #cccccc;
+    border-radius: 0;
+}
+
+#content-stats {
+    margin: 0 0 20px 0;
+    border-radius: 0;
+}
+
+#content-stats-end {
+    font-size: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+#stats_extended {
+    border-top: none;
+}
+
+#stats td,
+#stats th,
+#stats_extended td,
+#stats_extended th {
+    font-size: 9px;
+}
+
+td.stats_left,
+td.stats_right {
+    border-bottom: 1px solid #cccccc;
+}
+
+table#stats tr:nth-child(odd) {
+    background-color: #f0f0f0;
+}
+
+table#stats_extended tr:nth-child(even) {
+    background-color: #f0f0f0;
+}
+
+/* Global Styles */
+.dropdown-menu {
+    font-size: 11px;
+}
+
+label {
+    font-weight: normal;
+}
+
+.btn,
+.btn-primary,
+.btn-default,
+.btn-primary:hover,
+.btn-default:hover,
+.btn-primary:focus,
+.btn-default:hover,
+.button-group button[disabled],
+.button-group button[disabled]:hover,
+.button-group button[disabled]:active,
+.button-group button.disabled,
+.button-group button.disabled:hover,
+.button-group button.disabled:active,
+.btn-default[disabled],
+.btn-default[disabled]:hover,
+.btn-default[disabled]:focus,
+.btn-default[disabled]:active,
+.btn-default.active[disabled],
+.input-button {
+    background-image: url(img/ui_sprites_bg_snap_to_smallest_width.png);
+    background-position: 0 -322px;
+    height: 22px;
+    font-weight: normal;
+    color: #000000;
+    padding-left: 10px;
+    padding-top: 1px;
+    margin: 0;
+    font-size: 12px;
+    vertical-align: middle;
+    border-color: inherit;
+    box-shadow: none;
+}
+
+.btn,
+.btn-primary,
+.btn-default,
+.button-group button[disabled],
+.button-group button.disabled,
+.btn-default[disabled],
+.input-button {
+    border-width: 1px 2px 2px 1px;
+}
+
+.input-button {
+    background-image: url(img/ui_sprites_bg_snap_to_smallest_width.png) !important;
+    background-position: 0 -322px !important;
+    height: 22px !important;
+    font-weight: normal !important;
+    color: #000000 !important;
+    padding-left: 10px !important;
+    padding-top: 0 !important;
+    margin: 10px !important;
+    font-size: 12px !important;
+    vertical-align: middle !important;
+    border-width: 1px 2px 2px 1px !important;
+    border-color: inherit !important;
+}
+
+.btn-link {
+    border: none !important;
+    background-image: none !important;
+    height: inherit !important;
+    white-space: normal !important;
+    color: #428bca;
+}
+
+.form-control {
+    background-color: none;
+    border-radius: 0;
+    padding: 5px;
+    color: inherit;
+    height: inherit;
+    line-height: inherit;
+}
+
+.input-sm {
+    height: 30px;
+    padding: 5px 10px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 3px;
+}
+
+#retroSetDefault {
+    padding: 0 10px;
+}
+
+/* HACK: legacy cjt pager for paper lantern */
+.pager-container .pager-page-selector,
+.pager-container .pager-page-size-selector button {
+    margin-top: 5px;
+}
+
+/* for use in overriding bootstrap columns in specific locations */
+
+.retro-col-12 {
+    width: 100%;
+}
+
+/* ------------------------------------------------------------------------------ */
+/* Add these classes from bootstrap back.
+ * They get "broken" by the build-tools/retroify_bootstrap.pl script.
+/* ------------------------------------------------------------------------------ */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .hidden-md {
+        display: none !important;
+    }
+}
+@media (min-width: 1200px) {
+    .hidden-lg {
+        display: none !important;
+    }
+}
+
+#sidebar {
+    display: none;
+}

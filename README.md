@@ -9,7 +9,7 @@ You must download the folders first and then upload them to your website.
 In case you don't want or can't afford to do that, we have installed all the themes in our CDN, just replace mydomain.com in the code with ~~cdn.vptofficial.me~~ vpt.cdn.wybenetwork.com.
 
 # How to use and deploy into VistaPanel
-You must paste the code included below to your header and footer section of control panel adverts, which can be found from your MyOwnFreeHost panel.
+You must paste the code included below to your footer section of control panel adverts, which can be found on your MyOwnFreeHost panel.
 
 The codes below are just examples, you must replace "theme-name" with the name of the theme you want to use.
 You can find it's name written at the folder, and it is **case sensitive**.
@@ -65,5 +65,4 @@ Credits for the themes go to:
 
 [You](https://github.com/settings/profile): This could be you! Feel free to create a theme, and [open a Pull Request](https://github.com/WybeNetwork/VistaPanel-Themes/compare) for us to add it! 
 
-Additional credits go to everyone that contributed in fixing issues, maintaining the project, and ensuring everything works as it should, as well as to every contributor:  
-https://github.com/WybeNetwork/VistaPanel-Themes/graphs/contributors
+Additional credits go to everyone that contributed in fixing issues, maintaining the project, and ensuring everything works as it should, as well as to [every contributor](https://github.com/WybeNetwork/VistaPanel-Themes/graphs/contributors).
