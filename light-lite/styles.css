@@ -84,7 +84,6 @@ footer {
 }
 #-group .ng-pristine input[name="domain"], #-group .ng-pristine select[name="ext"] {
     float:left;
-    width: 74%;
     height: 34px;
     padding: 6px 12px;
     margin-right:3px;
@@ -110,9 +109,6 @@ footer {
     -webkit-box-shadow: inset 0 1px 1px #d9e0e2,0 0 8px rgba(255,108,44,.6);
     box-shadow: inset 0 1px 1px #d9e0e2,0 0 8px rgba(255,108,44,.6);
 }
-#-group .ng-pristine select[name="ext"] {
-    width:12%;
-}
 
 /*----- FORM TEMPLATE -----*/
 #content .btn-primary:hover, 
@@ -136,6 +132,9 @@ footer {
 }
 .dt_module {
 	padding-top: 30px;
+}
+.form-inline .form-group {
+    display: inherit;
 }
 .form-group {
 	margin-bottom: 0;

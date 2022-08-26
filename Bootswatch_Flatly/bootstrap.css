@@ -9,6 +9,7 @@
  * Based on Bootstrap
 */
 /*! normalize.css v3.0.1 | MIT License | git.io/normalize */
+/*! Modified by Anyx */
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -261,8 +262,6 @@ th {
 }
 @font-face {
   font-family: 'Glyphicons Halflings';
-  src: url('../fonts/glyphicons-halflings-regular.eot');
-  src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
 }
 .glyphicon {
   position: relative;
@@ -4598,7 +4597,6 @@ a.thumbnail.active {
   color: #2c3e50;
 }
 .alert {
-  padding: 15px;
   margin-bottom: 21px;
   border: 1px solid transparent;
   border-radius: 4px;

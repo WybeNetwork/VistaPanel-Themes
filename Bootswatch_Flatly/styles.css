@@ -2,6 +2,7 @@
 /* The MIT License (MIT) Copyright (c) 2014 cPanel, Inc. - for more information about the licensing of this document, please review the LICENSE.md file in the project root */
 
 /* -- cPanel Paper Lantern Bootswatch Adapter --*/
+/*! Modified by Anyx */
 
 /* Resets */
 
@@ -15,15 +16,12 @@ td table tr, td table td {
   border:0 !important;
 }
 
-/* turning off the fixed floating header */
-header .navbar-fixed-top {
-    position:relative;
-    top:inherit;
-    width:inherit;
-}
 body {
     padding-top:0;
-    background:black;
+    background:#ecf0f1;
+}
+#content {
+    margin-top: 72px;
 }
 .navbar {
     margin-bottom:0;
