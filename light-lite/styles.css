@@ -871,7 +871,6 @@ input:focus#txtQuickFind {
     }
 	.widget-heading {
 		padding: 10px;
-        white-space: nowrap;
         overflow:hidden;
 	}
     .itemTextWrapper {

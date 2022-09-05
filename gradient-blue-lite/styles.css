@@ -1,9 +1,9 @@
-/* 	**************************************************************************
-    *
-	*   Vista Panel Style
-	*   Theme Name: Gradient Blue
-	*   Author: MAHOfficial & Wybe Network (formerly VPT, VistaPanel Team)
-	*   Author URL: https://mahofficial.win
+	/*! **************************************************************************
+	*
+	*   VistaPanel Style
+	*   Theme Name: Gradient Blue Lite
+	*   Author: AADev & Wybe Network
+	*   Author URL: https://aadev.wybenetwork.com
 	*   Version: 1.2
 	*   GitHub Project URL: https://github.com/WybeNetwork/VistaPanel-Themes
 	*   Official Website URL: https://wybenetwork.com
@@ -1711,7 +1711,7 @@ footer {
 }
 
 #txtCpanelVersion:before {
-	content: "cPanel, Inc. © 2018 All Rights Reserved | Designed by MAHOfficial & VPT Team ";
+	content: "cPanel, Inc. © 2018 All Rights Reserved | Designed by MAHOfficial and Wybe Network / ";
 	font-size: 11px;
 	color: #fff;
 }

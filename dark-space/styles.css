@@ -5,10 +5,9 @@ body,
 	font-weight: lighter;
 	color: #D7D7D7;
 	min-height:200%;
-  background:url(img/sky.jpg) rgba(18, 163, 193, 0.7);
-  background-size:cover, no-repeat;
- background-blend-mode: multiply;
-	background:url(https://chandra.harvard.edu/photo/2009/galactic/galactic_lg.jpg) rgba(0, 0, 0, 0.7);
+	background-size:cover, no-repeat;
+	background-blend-mode: multiply;
+	background:url(img/bg.jpg) rgba(0, 0, 0, 0.7); /* You can also set your own URL */
 }
 a,
 .body-content a,
@@ -227,9 +226,10 @@ hr {
 .stripe-odd, .row-even {
     background-color: #262626;
 }
-input.form-control,
-select.form-control,
-textarea.form-control {
+input,
+select,
+textarea,
+.form-control {
     background-color: #444;
     border-color: #555;
     color: #eee;

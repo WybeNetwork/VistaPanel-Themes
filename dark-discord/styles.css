@@ -223,9 +223,10 @@ hr {
 .stripe-odd, .row-even {
     background-color: #262626;
 }
-input.form-control,
-select.form-control,
-textarea.form-control {
+input,
+select,
+textarea,
+.form-control {
     background-color: #444;
     border-color: #555;
     color: #eee;
@@ -1039,7 +1040,6 @@ input:focus#txtQuickFind {
 
 	.widget-heading {
 		padding: 10px;
-		white-space: nowrap;
         overflow:hidden;
 	}
 	.itemTextWrapper {

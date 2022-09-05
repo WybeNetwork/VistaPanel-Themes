@@ -1,9 +1,9 @@
 
-/* 	**************************************************************************
-    	*
+	/*! **************************************************************************
+	*
 	*   VistaPanel Style
 	*   Theme Name: Gradient Red
-	*   Author: yagizhan49 - NeotiDev & Wybe Network (formerly VPT, VistaPanel Team)
+	*   Author: evrifaessa - NeotiDev & Wybe Network
 	*   Author URL: https://yagiz.dev
 	*   Version: 1.0
 	*   GitHub Project URL: https://github.com/WybeNetwork/VistaPanel-Themes
@@ -1709,7 +1709,7 @@ footer {
 }
 
 #txtCpanelVersion:before {
-	content: "cPanel, Inc. © 2018 All Rights Reserved - Design by NeotiDev";
+	content: "cPanel, Inc. © 2018 All Rights Reserved - Designed by NeotiDev / ";
 	font-size: 11px;
 	color: #fff;
 }

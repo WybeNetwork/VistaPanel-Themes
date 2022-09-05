@@ -1,9 +1,9 @@
-/* 	**************************************************************************
-    	*
-	*   Vista Panel Style
+	/*! **************************************************************************
+	*
+	*   VistaPanel Style
 	*   Theme Name: Gradient Green
-	*   Author: Arcenas090 & Wybe Network (formerly VPT, VistaPanel Team)
-	*   Author URL: https://arcenas090.ml
+	*   Author: zero-arc & Wybe Network
+	*   Author URL: https://zero-arc.wybenetwork.com
 	*   Version: 1.0
 	*   GitHub Project URL: https://github.com/WybeNetwork/VistaPanel-Themes
 	*   Official Website URL: https://wybenetwork.com
@@ -1708,7 +1708,7 @@ footer {
 }
 
 #txtCpanelVersion:before {
-	content: "cPanel, Inc. © 2018 All Rights Reserved | vP Theme Crafted with Love by VPThemes.win  ";
+	content: "cPanel, Inc. © 2018 All Rights Reserved | Theme Crafted with Love by Arcenas090 and Wybe Network / ";
 	font-size: 11px;
 	color: #fff;
 }
