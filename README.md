@@ -47,7 +47,7 @@ Copyright 2019-2022 Wybe Network. Some Rights Reserved, check the [LICENSE](LICE
 
 Credits for the themes go to:
 
-[MAHOfficial](https://github.com/mahofficial) for the Gradient Blue theme, and for providing the cPanel themes.
+[AADev](https://github.com/mahofficial) for the Gradient Blue theme, and for providing the cPanel themes.
 
 [Arc](https://github.com/zero-arc) for the Gradient Purple and Gradient Green themes.
 
