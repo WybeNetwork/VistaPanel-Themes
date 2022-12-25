@@ -5,6 +5,14 @@ html[dir="rtl"] #content{
     padding-right:15px
 }
 
+::selection {
+    background-color: #cce2ff;
+    color: rgba(0,0,0,.87);
+}
+::moz-selection {
+    background-color: #cce2ff;
+    color: rgba(0,0,0,.87);
+}
 
 h1.page-header{
     border-bottom:0;
