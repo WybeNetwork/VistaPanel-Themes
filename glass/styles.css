@@ -657,7 +657,7 @@ body #boxes .itemTextWrapper{
     padding:1em 5px 1em 5px;
     color:#365aa2
 }
-html[dir="ltr"] body #boxes .itemTextWrapper,.spriteicon_img {
+html[dir="ltr"] body #boxes .itemTextWrapper {
     padding-left:40px
     /*margin-left: 40px;*/
 }
