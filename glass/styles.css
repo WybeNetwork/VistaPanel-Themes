@@ -660,10 +660,10 @@ body #boxes .itemTextWrapper{
 }
 html[dir="ltr"] body #boxes .itemTextWrapper {
     padding-left:40px
-    /*margin-left: 40px;*/
 }
 .spriteicon_img {
     margin-left: 40px;
+    margin-top: 10px;
 }
 @media(min-width:576px) and (min-height:576px){
     html[dir="ltr"] body #boxes .itemTextWrapper{
@@ -673,14 +673,11 @@ html[dir="ltr"] body #boxes .itemTextWrapper {
     .spriteicon_img {
         padding-left: unset;
         margin-left: 5px;
+        margin-top: unset;
     }
 }
 
-@media only screen and (max-width:767px) {
-    .spriteicon_img {
-        margin-top: 10px;
-    }
-}
+
 
 html[dir="rtl"] body #boxes .itemTextWrapper{
     padding-right:40px
