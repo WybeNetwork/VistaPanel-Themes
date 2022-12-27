@@ -21,6 +21,7 @@ To do that, you need to add this part to your footer advertising area:
 </style>
 ```
 It may not look as great, but you can always customize it further.
+Basic Icon Positioning is provided in the css file.
 
 # Credits
 [Anyx](https://github.com/4yx) for modifying the theme to work with VistaPanel.

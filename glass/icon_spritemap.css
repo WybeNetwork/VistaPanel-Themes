@@ -1,107 +1,164 @@
-.icon-attracta_emailmarketing,.icon-attracta_emailmarketing2,.icon-attracta_getingoogle,.icon-attracta_increasewebsitetraffic,.icon-attracta_linkbuilding,.icon-attracta_localseo,.icon-attracta_merchant,.icon-attracta_rankcheck,.icon-attracta_seoforresellers,.icon-attracta_seotools-,.icon-attracta_socialmm2,.icon-attracta_wpthemes,.icon-attracta_wpthemes2,.icon-attracta_wpvisual,.icon-lvephpsel,.icon-soft_div_icons,.icon-softaculous { background-image: url('img/icon_spritemap.png'); background-repeat: no-repeat; }
-.icon-attracta_emailmarketing { background-position: -5px -5px; width: 48px; height: 48px; }
-.icon-attracta_emailmarketing2 { background-position: -63px -5px; width: 48px; height: 48px; }
-.icon-attracta_getingoogle { background-position: -5px -63px; width: 48px; height: 48px; }
-.icon-attracta_increasewebsitetraffic { background-position: -63px -63px; width: 48px; height: 48px; }
-.icon-attracta_linkbuilding { background-position: -121px -5px; width: 48px; height: 48px; }
-.icon-attracta_localseo { background-position: -121px -63px; width: 48px; height: 48px; }
-.icon-attracta_merchant { background-position: -5px -121px; width: 48px; height: 48px; }
-.icon-attracta_rankcheck { background-position: -63px -121px; width: 48px; height: 48px; }
-.icon-attracta_seoforresellers { background-position: -121px -121px; width: 48px; height: 48px; }
-.icon-attracta_seotools- { background-position: -179px -5px; width: 48px; height: 48px; }
-.icon-attracta_socialmm2 { background-position: -179px -63px; width: 48px; height: 48px; }
-.icon-attracta_wpthemes { background-position: -179px -121px; width: 48px; height: 48px; }
-.icon-attracta_wpthemes2 { background-position: -5px -179px; width: 48px; height: 48px; }
-.icon-attracta_wpvisual { background-position: -63px -179px; width: 48px; height: 48px; }
-.icon-lvephpsel { background-position: -121px -179px; width: 48px; height: 48px; }
-.icon-soft_div_icons { background-position: -179px -179px; width: 48px; height: 48px; }
-.icon-softaculous { background-position: -237px -5px; width: 48px; height: 48px;}.icon-addon_domains,.icon-address_importer,.icon-advanced_zone_editor,.icon-aliases,.icon-analog_stats,.icon-anonymous_ftp,.icon-apache_handlers,.icon-apache_spam_assassin,.icon-api_shell-,.icon-application_manager,.icon-archive,.icon-authentication,.icon-autoresponders,.icon-awstats,.icon-backup,.icon-backup_restoration,.icon-backup_wizard,.icon-bandwidth,.icon-boxtrapper,.icon-calendar_and_contacts,.icon-change_language,.icon-change_password,.icon-change_style,.icon-cloudflare,.icon-contact_information,.icon-cpu_and_concurrent_connection_usage,.icon-cron_jobs,.icon-default_address,.icon-directory_privacy,.icon-disk_usage,.icon-email_accounts,.icon-email_disk_usage,.icon-email_filters,.icon-email_routing,.icon-encryption,.icon-error_pages,.icon-errors,.icon-file_manager,.icon-forwarders,.icon-ftp_accounts,.icon-ftp_connections,.icon-global_email_filters,.icon-greylisting,.icon-hotlink_protection,.icon-images,.icon-indexes,.icon-ip_blocker,.icon-leech_protection,.icon-mailing_lists,.icon-metrics_editor,.icon-mime_types,.icon-mod_security,.icon-multiphp_ini_editor,.icon-multiphp_manager,.icon-mysql_database_wizard,.icon-mysql_databases,.icon-optimize_website,.icon-perl_modules,.icon-php,.icon-php_my_admin,.icon-php_pear_packages,.icon-php_pg_admin,.icon-postgresql_database_wizard,.icon-postgresql_databases,.icon-raw_access,.icon-redirects,.icon-remote_mysql,.icon-ruby_gems,.icon-ruby_on_rails,.icon-security_policy,.icon-simple_zone_editor,.icon-site_publisher,.icon-site_software,.icon-ssh_access,.icon-ssl_tls,.icon-subdomains,.icon-tls_status,.icon-tls_wizard,.icon-track_delivery,.icon-track_dns,.icon-two_factor_authentication-,.icon-user_manager,.icon-virus_scanner,.icon-visitors,.icon-web_disk,.icon-web_host_manager,.icon-webalizer,.icon-webalizer_ftp,.icon-zone_editor { background-image: url('img/icon_spritemap.svg'); background-repeat: no-repeat; }
-.icon-addon_domains { background-size: 4709px 48px; background-position: -0px 0; width: 48px; height: 48px; }
-.icon-address_importer { background-size: 4709px 48px; background-position: -53px 0; width: 48px; height: 48px; }
-.icon-advanced_zone_editor { background-size: 4709px 48px; background-position: -106px 0; width: 48px; height: 48px; }
-.icon-aliases { background-size: 4709px 48px; background-position: -159px 0; width: 48px; height: 48px; }
-.icon-analog_stats { background-size: 4709px 48px; background-position: -212px 0; width: 48px; height: 48px; }
-.icon-anonymous_ftp { background-size: 4709px 48px; background-position: -265px 0; width: 48px; height: 48px; }
-.icon-apache_handlers { background-size: 4709px 48px; background-position: -318px 0; width: 48px; height: 48px; }
-.icon-apache_spam_assassin { background-size: 4709px 48px; background-position: -371px 0; width: 48px; height: 48px; }
-.icon-api_shell- { background-size: 4709px 48px; background-position: -424px 0; width: 48px; height: 48px; }
-.icon-application_manager { background-size: 4709px 48px; background-position: -477px 0; width: 48px; height: 48px; }
-.icon-archive { background-size: 4709px 48px; background-position: -530px 0; width: 48px; height: 48px; }
-.icon-authentication { background-size: 4709px 48px; background-position: -583px 0; width: 48px; height: 48px; }
-.icon-autoresponders { background-size: 4709px 48px; background-position: -636px 0; width: 48px; height: 48px; }
-.icon-awstats { background-size: 4709px 48px; background-position: -689px 0; width: 48px; height: 48px; }
-.icon-backup { background-size: 4709px 48px; background-position: -742px 0; width: 48px; height: 48px; }
-.icon-backup_restoration { background-size: 4709px 48px; background-position: -795px 0; width: 48px; height: 48px; }
-.icon-backup_wizard { background-size: 4709px 48px; background-position: -848px 0; width: 48px; height: 48px; }
-.icon-bandwidth { background-size: 4709px 48px; background-position: -901px 0; width: 48px; height: 48px; }
-.icon-boxtrapper { background-size: 4709px 48px; background-position: -954px 0; width: 48px; height: 48px; }
-.icon-calendar_and_contacts { background-size: 4709px 48px; background-position: -1007px 0; width: 48px; height: 48px; }
-.icon-change_language { background-size: 4709px 48px; background-position: -1060px 0; width: 48px; height: 48px; }
-.icon-change_password { background-size: 4709px 48px; background-position: -1113px 0; width: 48px; height: 48px; }
-.icon-change_style { background-size: 4709px 48px; background-position: -1166px 0; width: 48px; height: 48px; }
-.icon-cloudflare { background-size: 4709px 48px; background-position: -1219px 0; width: 48px; height: 48px; }
-.icon-contact_information { background-size: 4709px 48px; background-position: -1272px 0; width: 48px; height: 48px; }
-.icon-cpu_and_concurrent_connection_usage { background-size: 4709px 48px; background-position: -1325px 0; width: 48px; height: 48px; }
-.icon-cron_jobs { background-size: 4709px 48px; background-position: -1378px 0; width: 48px; height: 48px; }
-.icon-default_address { background-size: 4709px 48px; background-position: -1431px 0; width: 48px; height: 48px; }
-.icon-directory_privacy { background-size: 4709px 48px; background-position: -1484px 0; width: 48px; height: 48px; }
-.icon-disk_usage { background-size: 4709px 48px; background-position: -1537px 0; width: 48px; height: 48px; }
-.icon-email_accounts { background-size: 4709px 48px; background-position: -1589px 0; width: 48px; height: 48px; }
-.icon-email_disk_usage { background-size: 4709px 48px; background-position: -1642px 0; width: 48px; height: 48px; }
-.icon-email_filters { background-size: 4709px 48px; background-position: -1695px 0; width: 48px; height: 48px; }
-.icon-email_routing { background-size: 4709px 48px; background-position: -1748px 0; width: 48px; height: 48px; }
-.icon-encryption { background-size: 4709px 48px; background-position: -1801px 0; width: 48px; height: 48px; }
-.icon-error_pages { background-size: 4709px 48px; background-position: -1854px 0; width: 48px; height: 48px; }
-.icon-errors { background-size: 4709px 48px; background-position: -1907px 0; width: 48px; height: 48px; }
-.icon-file_manager { background-size: 4709px 48px; background-position: -1960px 0; width: 48px; height: 48px; }
-.icon-forwarders { background-size: 4709px 48px; background-position: -2013px 0; width: 48px; height: 48px; }
-.icon-ftp_accounts { background-size: 4709px 48px; background-position: -2066px 0; width: 48px; height: 48px; }
-.icon-ftp_connections { background-size: 4709px 48px; background-position: -2119px 0; width: 48px; height: 48px; }
-.icon-global_email_filters { background-size: 4709px 48px; background-position: -2172px 0; width: 48px; height: 48px; }
-.icon-greylisting { background-size: 4709px 48px; background-position: -2225px 0; width: 46px; height: 45px; }
-.icon-hotlink_protection { background-size: 4709px 48px; background-position: -2276px 0; width: 48px; height: 48px; }
-.icon-images { background-size: 4709px 48px; background-position: -2329px 0; width: 48px; height: 48px; }
-.icon-indexes { background-size: 4709px 48px; background-position: -2382px 0; width: 48px; height: 48px; }
-.icon-ip_blocker { background-size: 4709px 48px; background-position: -2435px 0; width: 48px; height: 48px; }
-.icon-leech_protection { background-size: 4709px 48px; background-position: -2488px 0; width: 48px; height: 48px; }
-.icon-mailing_lists { background-size: 4709px 48px; background-position: -2541px 0; width: 48px; height: 48px; }
-.icon-metrics_editor { background-size: 4709px 48px; background-position: -2594px 0; width: 48px; height: 48px; }
-.icon-mime_types { background-size: 4709px 48px; background-position: -2647px 0; width: 48px; height: 48px; }
-.icon-mod_security { background-size: 4709px 48px; background-position: -2700px 0; width: 48px; height: 48px; }
-.icon-multiphp_ini_editor { background-size: 4709px 48px; background-position: -2753px 0; width: 48px; height: 48px; }
-.icon-multiphp_manager { background-size: 4709px 48px; background-position: -2806px 0; width: 48px; height: 48px; }
-.icon-mysql_database_wizard { background-size: 4709px 48px; background-position: -2859px 0; width: 48px; height: 48px; }
-.icon-mysql_databases { background-size: 4709px 48px; background-position: -2912px 0; width: 48px; height: 48px; }
-.icon-optimize_website { background-size: 4709px 48px; background-position: -2965px 0; width: 48px; height: 48px; }
-.icon-perl_modules { background-size: 4709px 48px; background-position: -3018px 0; width: 48px; height: 48px; }
-.icon-php { background-size: 4709px 48px; background-position: -3071px 0; width: 48px; height: 48px; }
-.icon-php_my_admin { background-size: 4709px 48px; background-position: -3124px 0; width: 48px; height: 48px; }
-.icon-php_pear_packages { background-size: 4709px 48px; background-position: -3177px 0; width: 48px; height: 48px; }
-.icon-php_pg_admin { background-size: 4709px 48px; background-position: -3230px 0; width: 48px; height: 48px; }
-.icon-postgresql_database_wizard { background-size: 4709px 48px; background-position: -3283px 0; width: 48px; height: 48px; }
-.icon-postgresql_databases { background-size: 4709px 48px; background-position: -3336px 0; width: 48px; height: 48px; }
-.icon-raw_access { background-size: 4709px 48px; background-position: -3389px 0; width: 48px; height: 48px; }
-.icon-redirects { background-size: 4709px 48px; background-position: -3442px 0; width: 48px; height: 48px; }
-.icon-remote_mysql { background-size: 4709px 48px; background-position: -3495px 0; width: 48px; height: 48px; }
-.icon-ruby_gems { background-size: 4709px 48px; background-position: -3548px 0; width: 48px; height: 48px; }
-.icon-ruby_on_rails { background-size: 4709px 48px; background-position: -3601px 0; width: 48px; height: 48px; }
-.icon-security_policy { background-size: 4709px 48px; background-position: -3654px 0; width: 48px; height: 48px; }
-.icon-simple_zone_editor { background-size: 4709px 48px; background-position: -3707px 0; width: 48px; height: 48px; }
-.icon-site_publisher { background-size: 4709px 48px; background-position: -3760px 0; width: 48px; height: 48px; }
-.icon-site_software { background-size: 4709px 48px; background-position: -3813px 0; width: 48px; height: 48px; }
-.icon-ssh_access { background-size: 4709px 48px; background-position: -3866px 0; width: 48px; height: 48px; }
-.icon-ssl_tls { background-size: 4709px 48px; background-position: -3919px 0; width: 48px; height: 48px; }
+.icon-imunify-antivirus { background-image: url('./icon_spritemap.png?2c694c9c28d3607f858cf2c836d28379c74cbebf146bd1156a5aaf3eb3126823_4.0'); background-repeat: no-repeat; }
+.icon-imunify-antivirus { background-position: -5px -5px; width: 48px; height: 47px; }.icon-address_importer,.icon-analog_stats,.icon-anonymous_ftp,.icon-apache_handlers,.icon-apache_spam_assassin,.icon-api_tokens,.icon-application_manager,.icon-archive,.icon-autoresponders,.icon-awstats,.icon-backup,.icon-backup_wizard,.icon-bandwidth,.icon-boxtrapper,.icon-calendar_and_contacts,.icon-canary,.icon-change_language,.icon-change_password,.icon-change_style,.icon-clam_av,.icon-contact_information,.icon-cpanel-site-monitor,.icon-cpanel-wordpress-instance-manager,.icon-cpu_and_concurrent_connection_usage,.icon-cron_jobs,.icon-default_address,.icon-directory_privacy,.icon-disk_usage,.icon-domains,.icon-dynamic_dns,.icon-email_accounts,.icon-email_deliverability,.icon-email_disk_usage,.icon-email_filters,.icon-email_routing,.icon-encryption,.icon-error_pages,.icon-errors,.icon-feature,.icon-file_and_directory_restoration,.icon-file_manager,.icon-forwarders,.icon-ftp_accounts,.icon-ftp_connections,.icon-global_email_filters,.icon-greylisting,.icon-group,.icon-group_advanced,.icon-group_databases,.icon-group_domains,.icon-group_email,.icon-group_files,.icon-group_metrics,.icon-group_preferences,.icon-group_security,.icon-group_software,.icon-hotlink_protection,.icon-images,.icon-indexes,.icon-ip_blocker,.icon-leech_protection,.icon-mailing_lists,.icon-manage_calendar_access,.icon-metrics_editor,.icon-mime_types,.icon-mod_security,.icon-multiphp_configuration,.icon-multiphp_ini_editor,.icon-multiphp_manager,.icon-mx_entry,.icon-mysql_database_wizard,.icon-mysql_databases,.icon-mysql_manager,.icon-optimize_website,.icon-perl_modules,.icon-php,.icon-php_my_admin,.icon-php_pear_packages,.icon-php_pg_admin,.icon-postgresql_database_wizard,.icon-postgresql_databases,.icon-raw_access,.icon-redirects,.icon-remote_mysql,.icon-ruby_gems,.icon-ruby_on_rails,.icon-security_policy,.icon-site_publisher,.icon-site_software,.icon-solr_search_index,.icon-ssh_access,.icon-ssl_tls,.icon-team_manager,.icon-terminal,.icon-tls_status,.icon-tls_wizard,.icon-track_delivery,.icon-track_dns,.icon-user_manager,.icon-version_control,.icon-visitors,.icon-web_disk,.icon-web_host_manager,.icon-webalizer,.icon-webalizer_ftp,.icon-wp-toolkit,.icon-zone_editor,.icon-advanced_zone_editor,.icon-simple_zone_editor,.icon-cloudflare_analytics,.icon-createticket,.icon-attracta_seotools { background-image: url(https://vpassets.spookhost.eu.org/icon_spritemap.svg?2c694c9c28d3607f858cf2c836d28379c74cbebf146bd1156a5aaf3eb3126823_4.0); background-repeat: no-repeat; }
+.icon-address_importer { background-size: 5612px 48px; background-position: -0px 0; width: 48px; height: 48px; }
+.icon-analog_stats { background-size: 5612px 48px; background-position: -53px 0; width: 48px; height: 48px; }
+.icon-anonymous_ftp { background-size: 5612px 48px; background-position: -106px 0; width: 48px; height: 48px; }
+.icon-apache_handlers { background-size: 5612px 48px; background-position: -159px 0; width: 48px; height: 48px; }
+.icon-apache_spam_assassin { background-size: 5612px 48px; background-position: -212px 0; width: 48px; height: 48px; }
+.icon-cloudflare_analytics { background-size: 5612px 48px; background-position: -265px 0; width: 48px; height: 48px; }
+.icon-api_tokens { background-size: 5612px 48px; background-position: -318px 0; width: 48px; height: 48px; }
+.icon-application_manager { background-size: 5612px 48px; background-position: -371px 0; width: 48px; height: 48px; }
+.icon-archive { background-size: 5612px 48px; background-position: -424px 0; width: 48px; height: 48px; }
+.icon-autoresponders { background-size: 5612px 48px; background-position: -477px 0; width: 48px; height: 48px; }
+.icon-awstats { background-size: 5612px 48px; background-position: -530px 0; width: 48px; height: 48px; }
+.icon-backup { background-size: 5612px 48px; background-position: -583px 0; width: 48px; height: 48px; }
+.icon-backup_wizard { background-size: 5612px 48px; background-position: -636px 0; width: 48px; height: 48px; }
+.icon-bandwidth { background-size: 5612px 48px; background-position: -689px 0; width: 48px; height: 48px; }
+.icon-boxtrapper { background-size: 5612px 48px; background-position: -742px 0; width: 48px; height: 48px; }
+.icon-calendar_and_contacts { background-size: 5612px 48px; background-position: -795px 0; width: 48px; height: 48px; }
+.icon-canary { background-size: 5612px 48px; background-position: -848px 0; width: 48px; height: 48px; }
+.icon-change_language { background-size: 5612px 48px; background-position: -901px 0; width: 48px; height: 48px; }
+.icon-change_password { background-size: 5612px 48px; background-position: -954px 0; width: 48px; height: 48px; }
+.icon-change_style { background-size: 5612px 48px; background-position: -1007px 0; width: 48px; height: 48px; }
+.icon-clam_av { background-size: 5612px 48px; background-position: -1060px 0; width: 48px; height: 48px; }
+.icon-contact_information,.icon-createticket { background-size: 5612px 48px; background-position: -1113px 0; width: 48px; height: 48px; }
+.icon-cpanel-site-monitor { background-size: 5612px 48px; background-position: -1166px 0; width: 48px; height: 48px; }
+.icon-cpanel-wordpress-instance-manager { background-size: 5612px 48px; background-position: -1219px 0; width: 48px; height: 48px; }
+.icon-cpu_and_concurrent_connection_usage { background-size: 5612px 48px; background-position: -1272px 0; width: 48px; height: 48px; }
+.icon-cron_jobs { background-size: 5612px 48px; background-position: -1325px 0; width: 48px; height: 48px; }
+.icon-default_address { background-size: 5612px 48px; background-position: -1378px 0; width: 48px; height: 48px; }
+.icon-directory_privacy { background-size: 5612px 48px; background-position: -1431px 0; width: 48px; height: 48px; }
+.icon-disk_usage { background-size: 5612px 48px; background-position: -1484px 0; width: 48px; height: 48px; }
+.icon-domains/*, .icon-addon_domains*/ { background-size: 5612px 48px; background-position: -1537px 0; width: 48px; height: 48px; }
+.icon-dynamic_dns, .icon-simple_zone_editor { background-size: 5612px 48px; background-position: -1590px 0; width: 48px; height: 48px; }
+.icon-email_accounts { background-size: 5612px 48px; background-position: -1643px 0; width: 48px; height: 48px; }
+.icon-email_deliverability { background-size: 5612px 48px; background-position: -1696px 0; width: 48px; height: 48px; }
+.icon-email_disk_usage { background-size: 5612px 48px; background-position: -1749px 0; width: 48px; height: 48px; }
+.icon-email_filters { background-size: 5612px 48px; background-position: -1802px 0; width: 48px; height: 48px; }
+.icon-email_routing { background-size: 5612px 48px; background-position: -1855px 0; width: 48px; height: 48px; }
+.icon-encryption { background-size: 5612px 48px; background-position: -1908px 0; width: 48px; height: 48px; }
+.icon-error_pages { background-size: 5612px 48px; background-position: -1961px 0; width: 48px; height: 48px; }
+.icon-errors { background-size: 5612px 48px; background-position: -2014px 0; width: 48px; height: 48px; }
+.icon-feature { background-size: 5612px 48px; background-position: -2067px 0; width: 48px; height: 48px; }
+.icon-file_and_directory_restoration { background-size: 5612px 48px; background-position: -2120px 0; width: 48px; height: 48px; }
+.icon-file_manager { background-size: 5612px 48px; background-position: -2173px 0; width: 48px; height: 48px; }
+.icon-forwarders { background-size: 5612px 48px; background-position: -2226px 0; width: 48px; height: 48px; }
+.icon-ftp_accounts { background-size: 5612px 48px; background-position: -2279px 0; width: 48px; height: 48px; }
+.icon-ftp_connections { background-size: 5612px 48px; background-position: -2332px 0; width: 48px; height: 48px; }
+.icon-global_email_filters { background-size: 5612px 48px; background-position: -2385px 0; width: 48px; height: 48px; }
+.icon-greylisting { background-size: 5612px 48px; background-position: -2438px 0; width: 48px; height: 48px; }
+.icon-group { background-size: 5612px 48px; background-position: -2491px 0; width: 32px; height: 32px; }
+.icon-group_advanced { background-size: 5612px 48px; background-position: -2528px 0; width: 32px; height: 32px; }
+.icon-group_databases { background-size: 5612px 48px; background-position: -2565px 0; width: 32px; height: 32px; }
+.icon-group_domains { background-size: 5612px 48px; background-position: -2602px 0; width: 32px; height: 32px; }
+.icon-group_email { background-size: 5612px 48px; background-position: -2639px 0; width: 32px; height: 32px; }
+.icon-group_files { background-size: 5612px 48px; background-position: -2676px 0; width: 32px; height: 32px; }
+.icon-group_metrics { background-size: 5612px 48px; background-position: -2713px 0; width: 32px; height: 32px; }
+.icon-group_preferences { background-size: 5612px 48px; background-position: -2750px 0; width: 32px; height: 32px; }
+.icon-group_security { background-size: 5612px 48px; background-position: -2787px 0; width: 32px; height: 32px; }
+.icon-group_software { background-size: 5612px 48px; background-position: -2824px 0; width: 32px; height: 32px; }
+.icon-hotlink_protection { background-size: 5612px 48px; background-position: -2861px 0; width: 48px; height: 48px; }
+.icon-images { background-size: 5612px 48px; background-position: -2914px 0; width: 48px; height: 48px; }
+.icon-indexes,.icon-attracta_seotools { background-size: 5612px 48px; background-position: -2967px 0; width: 48px; height: 48px; }
+.icon-ip_blocker { background-size: 5612px 48px; background-position: -3020px 0; width: 48px; height: 48px; }
+.icon-leech_protection { background-size: 5612px 48px; background-position: -3073px 0; width: 48px; height: 48px; }
+.icon-mailing_lists { background-size: 5612px 48px; background-position: -3126px 0; width: 48px; height: 48px; }
+.icon-manage_calendar_access { background-size: 5612px 48px; background-position: -3179px 0; width: 48px; height: 48px; }
+.icon-metrics_editor { background-size: 5612px 48px; background-position: -3232px 0; width: 48px; height: 48px; }
+.icon-mime_types { background-size: 5612px 48px; background-position: -3285px 0; width: 48px; height: 48px; }
+.icon-mod_security { background-size: 5612px 48px; background-position: -3338px 0; width: 48px; height: 48px; }
+.icon-multiphp_configuration { background-size: 5612px 48px; background-position: -3391px 0; width: 48px; height: 48px; }
+.icon-multiphp_ini_editor { background-size: 5612px 48px; background-position: -3444px 0; width: 48px; height: 48px; }
+.icon-multiphp_manager { background-size: 5612px 48px; background-position: -3497px 0; width: 48px; height: 48px; }
+.icon-mx_entry { background-size: 5612px 48px; background-position: -3550px 0; width: 48px; height: 48px; }
+.icon-mysql_database_wizard { background-size: 5612px 48px; background-position: -3603px 0; width: 48px; height: 48px; }
+.icon-mysql_databases { background-size: 5612px 48px; background-position: -3656px 0; width: 48px; height: 48px; }
+.icon-mysql_manager { background-size: 5612px 48px; background-position: -3709px 0; width: 48px; height: 48px; }
+.icon-optimize_website { background-size: 5612px 48px; background-position: -3762px 0; width: 48px; height: 48px; }
+.icon-perl_modules { background-size: 5612px 48px; background-position: -3815px 0; width: 48px; height: 48px; }
+.icon-php { background-size: 5612px 48px; background-position: -3868px 0; width: 48px; height: 48px; }
+.icon-php_my_admin { background-size: 5612px 48px; background-position: -3921px 0; width: 48px; height: 48px; }
+.icon-php_pear_packages { background-size: 5612px 48px; background-position: -3974px 0; width: 48px; height: 48px; }
+.icon-php_pg_admin { background-size: 5612px 48px; background-position: -4027px 0; width: 48px; height: 48px; }
+.icon-postgresql_database_wizard { background-size: 5612px 48px; background-position: -4080px 0; width: 48px; height: 48px; }
+.icon-postgresql_databases { background-size: 5612px 48px; background-position: -4133px 0; width: 48px; height: 48px; }
+.icon-raw_access { background-size: 5612px 48px; background-position: -4186px 0; width: 48px; height: 48px; }
+.icon-redirects { background-size: 5612px 48px; background-position: -4239px 0; width: 48px; height: 48px; }
+.icon-remote_mysql { background-size: 5612px 48px; background-position: -4292px 0; width: 48px; height: 48px; }
+.icon-ruby_gems { background-size: 5612px 48px; background-position: -4345px 0; width: 48px; height: 48px; }
+.icon-ruby_on_rails { background-size: 5612px 48px; background-position: -4398px 0; width: 48px; height: 48px; }
+.icon-security_policy { background-size: 5612px 48px; background-position: -4451px 0; width: 48px; height: 48px; }
+.icon-site_publisher { background-size: 5612px 48px; background-position: -4504px 0; width: 48px; height: 48px; }
+.icon-site_software { background-size: 5612px 48px; background-position: -4557px 0; width: 48px; height: 48px; }
+.icon-solr_search_index { background-size: 5612px 48px; background-position: -4610px 0; width: 48px; height: 48px; }
+.icon-ssh_access { background-size: 5612px 48px; background-position: -4663px 0; width: 48px; height: 48px; }
+.icon-ssl_tls { background-size: 5612px 48px; background-position: -4716px 0; width: 48px; height: 48px; }
+.icon-team_manager { background-size: 5612px 48px; background-position: -4769px 0; width: 48px; height: 48px; }
+.icon-terminal { background-size: 5612px 48px; background-position: -4822px 0; width: 48px; height: 48px; }
+.icon-tls_status { background-size: 5612px 48px; background-position: -4875px 0; width: 48px; height: 48px; }
+.icon-tls_wizard { background-size: 5612px 48px; background-position: -4928px 0; width: 48px; height: 48px; }
+.icon-track_delivery { background-size: 5612px 48px; background-position: -4981px 0; width: 48px; height: 48px; }
+.icon-track_dns { background-size: 5612px 48px; background-position: -5034px 0; width: 48px; height: 48px; }
+/*.icon-two_factor_authentication { background-size: 5612px 48px; background-position: -5087px 0; width: 48px; height: 48px; }*/
+.icon-user_manager { background-size: 5612px 48px; background-position: -5140px 0; width: 48px; height: 48px; }
+.icon-version_control { background-size: 5612px 48px; background-position: -5193px 0; width: 48px; height: 48px; }
+.icon-visitors { background-size: 5612px 48px; background-position: -5246px 0; width: 48px; height: 48px; }
+.icon-web_disk { background-size: 5612px 48px; background-position: -5299px 0; width: 48px; height: 48px; }
+.icon-web_host_manager { background-size: 5612px 48px; background-position: -5352px 0; width: 48px; height: 48px; }
+.icon-webalizer { background-size: 5612px 48px; background-position: -5405px 0; width: 48px; height: 48px; }
+.icon-webalizer_ftp { background-size: 5612px 48px; background-position: -5458px 0; width: 48px; height: 48px; }
+.icon-wp-toolkit { background-size: 5612px 48px; background-position: -5511px 0; width: 48px; height: 48px; }
+.icon-zone_editor, .icon-advanced_zone_editor { background-size: 5612px 48px; background-position: -5564px 0; width: 48px; height: 48px; }
 .icon-subdomains { background-size: 4709px 48px; background-position: -3972px 0; width: 48px; height: 48px; }
-.icon-tls_status { background-size: 4709px 48px; background-position: -4025px 0; width: 48px; height: 48px; }
-.icon-tls_wizard { background-size: 4709px 48px; background-position: -4078px 0; width: 48px; height: 48px; }
-.icon-track_delivery { background-size: 4709px 48px; background-position: -4131px 0; width: 48px; height: 48px; }
-.icon-track_dns { background-size: 4709px 48px; background-position: -4184px 0; width: 48px; height: 48px; }
-.icon-two_factor_authentication- { background-size: 4709px 48px; background-position: -4237px 0; width: 48px; height: 48px; }
-.icon-user_manager { background-size: 4709px 48px; background-position: -4290px 0; width: 48px; height: 48px; }
-.icon-virus_scanner { background-size: 4709px 48px; background-position: -4343px 0; width: 48px; height: 48px; }
-.icon-visitors { background-size: 4709px 48px; background-position: -4396px 0; width: 48px; height: 48px; }
-.icon-web_disk { background-size: 4709px 48px; background-position: -4449px 0; width: 48px; height: 48px; }
-.icon-web_host_manager { background-size: 4709px 48px; background-position: -4502px 0; width: 48px; height: 48px; }
-.icon-webalizer { background-size: 4709px 48px; background-position: -4555px 0; width: 48px; height: 48px; }
-.icon-webalizer_ftp { background-size: 4709px 48px; background-position: -4608px 0; width: 48px; height: 48px; }
-.icon-zone_editor { background-size: 4709px 48px; background-position: -4661px 0; width: 48px; height: 48px;}
+/*con-aliases { background-size: 4709px 48px; background-position: -159px 0; width: 48px; height: 48px; }*/
+
+.icon-subdomains {
+  background-position: 0 0;
+  background-image: url('https://vpassets.spookhost.eu.org/subdomains.png'); 
+  background-repeat: no-repeat; 
+  background-size: 48px 48px;
+  width: 48px;
+  height: 48px;
+  
+}
+
+.icon-aliases {
+  background-position: 0 0;
+  background-image: url('https://vpassets.spookhost.eu.org/Aliases.png'); 
+  background-repeat: no-repeat; 
+  background-size: 48px 48px;
+  width: 48px;
+  height: 48px;
+  
+}
+
+.icon-addon_domains {
+  background-position: 0 0;
+  background-image: url('https://vpassets.spookhost.eu.org/AddonDomains.png'); 
+  background-repeat: no-repeat; 
+  background-size: 48px 48px;
+  width: 48px;
+  height: 48px;
+  
+}
+
+.icon-two_factor_authentication {
+  background-position: 0 0;
+  background-image: url('https://vpassets.spookhost.eu.org/AccountUpgrades.png'); 
+  background-repeat: no-repeat; 
+  background-size: 48px 48px;
+  width: 48px;
+  height: 48px;
+  
+}
+
+
+.icon-softaculous {
+  background-position: 0 0;
+  background-image: url('https://vpassets.spookhost.eu.org/Softaculous.svg'); 
+  background-repeat: no-repeat; 
+  background-size: 38px 38px;
+  width: 48px;
+  height: 48px;
+  
+}

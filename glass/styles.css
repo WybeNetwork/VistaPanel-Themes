@@ -4,6 +4,16 @@ html[dir="ltr"] #content{
 html[dir="rtl"] #content{
     padding-right:15px
 }
+
+::selection {
+    background-color: #cce2ff;
+    color: rgba(0,0,0,.87);
+}
+::moz-selection {
+    background-color: #cce2ff;
+    color: rgba(0,0,0,.87);
+}
+
 h1.page-header{
     border-bottom:0;
     font-weight:lighter
@@ -648,14 +658,27 @@ body #boxes .itemTextWrapper{
     padding:1em 5px 1em 5px;
     color:#365aa2
 }
-html[dir="ltr"] body #boxes .itemTextWrapper{
+html[dir="ltr"] body #boxes .itemTextWrapper {
     padding-left:40px
+}
+.spriteicon_img {
+    margin-left: 40px;
+    margin-top: 10px;
 }
 @media(min-width:576px) and (min-height:576px){
     html[dir="ltr"] body #boxes .itemTextWrapper{
-        padding:5px
+        padding:5px;
+        margin-left: unset;
+    }
+    .spriteicon_img {
+        padding-left: unset;
+        margin-left: 5px;
+        margin-top: unset;
     }
 }
+
+
+
 html[dir="rtl"] body #boxes .itemTextWrapper{
     padding-right:40px
 }
