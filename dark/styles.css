@@ -79,7 +79,7 @@ ul.validation_errors_ul>li.validation_errors_li{
     color:#333
 }
 button,input,input.form-control,select,select.form-control,textarea,textarea.form-control{
-    background-color:#444;
+    background-color:#444!important;
     border-color:#555;
     color:#eee
 }

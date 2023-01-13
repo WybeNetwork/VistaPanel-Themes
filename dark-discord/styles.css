@@ -227,7 +227,7 @@ input,
 select,
 textarea,
 .form-control {
-    background-color: #444;
+    background-color: #444!important;
     border-color: #555;
     color: #eee;
 }
