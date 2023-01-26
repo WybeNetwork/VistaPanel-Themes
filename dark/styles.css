@@ -401,6 +401,7 @@ html[dir=rtl] #jump-search:after{
     background-color:#262626;
     margin:0 15px 15px 0;
     width:230px;
+    height: auto;
     border:1px solid #333;
     border-radius:2px;
     -webkit-border-radius:2px;
