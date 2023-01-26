@@ -230,7 +230,7 @@ input,
 select,
 textarea,
 .form-control {
-    background-color: #444!important;
+    background-color: #444;
     border-color: #555;
     color: #eee;
 }
