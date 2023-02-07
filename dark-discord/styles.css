@@ -482,6 +482,12 @@ a.itemTexWrapper {
 .table>thead>tr>th, .table>tbody>tr>th, .table>tfoot>tr>th, .table>thead>tr>td, .table>tbody>tr>td, .table>tfoot>tr>td {
     padding:8px;
 	border-top: 1px solid #1d1d1d;
+	background-color: #2c2f33 !important;
+}
+
+/* fix ticket tables having white forced backgrounds */
+.table{
+	background-color: #2c2f33 !important;
 }
 
 /*.table>thead>tr>th, .table>tbody>tr>th, .table>tfoot>tr>th, .table>thead>tr>td, .table>tbody>tr>td, .table>tfoot>tr>td {
