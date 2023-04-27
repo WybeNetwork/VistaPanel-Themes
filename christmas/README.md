@@ -1,7 +1,7 @@
 # Christmas
 Christmas theme.
 ## Preview
-![Theme Preview](https://github.com/WybeNetwork/VistaPanel-Themes/blob/master/christmas/preview.png "Theme Preview")
+![Theme Preview](https://github.com/WybeNetwork/VistaPanel-Themes/blob/master/christmas/preview.png?raw=true "Theme Preview")
 
 # Copyright Info and Credits
 Copyright 2019-2022 Wybe Network. Some Rights Reserved, check the LICENSE for more details.
