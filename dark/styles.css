@@ -857,6 +857,11 @@ input#generate_password_input_field{
     width: 100%;
 }
 
+#boxes:nth-child(3) > div:nth-child(2):hover {
+    background-color: #262626;
+    border-color: #191919;
+}
+
 @media screen and (max-width: 480px) {
     #boxes:nth-child(3) #-group[role="category"] form.ng-pristine[action] {
         flex-direction: column;
