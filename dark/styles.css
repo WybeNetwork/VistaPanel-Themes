@@ -880,3 +880,7 @@ input#generate_password_input_field{
         gap: 15px;
     }
 }
+
+div#stats:nth-child(2) > div#statsSection:nth-child(2) {
+    overflow-wrap: anywhere;
+}
