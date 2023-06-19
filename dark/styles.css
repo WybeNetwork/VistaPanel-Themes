@@ -856,3 +856,10 @@ input#generate_password_input_field{
 #boxes:nth-child(3) #-group[role="category"] form.ng-pristine[action] input[name="domain"] {
     width: 100%;
 }
+
+@media screen and (max-width: 480px) {
+    #boxes:nth-child(3) #-group[role="category"] form.ng-pristine[action] {
+        flex-direction: column;
+        gap: 15px;
+    }
+}
