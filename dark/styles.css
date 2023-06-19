@@ -353,7 +353,7 @@ html[dir=rtl] #jump-search:after{
     margin-right:20px;
     margin-bottom:35px
 }
-.panel,.widget{
+.panel,.widget,#boxes:nth-child(3){
     background-color:#222;
     margin-top:20px;
     box-shadow:none;
