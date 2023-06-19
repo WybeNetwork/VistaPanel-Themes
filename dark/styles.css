@@ -865,7 +865,7 @@ input#generate_password_input_field{
     transition: .3s all;
 }
 
-#boxes:nth-child(3) > div:nth-child(2) div.panel-heading {
+#boxes:nth-child(3) > div:nth-child(2) div.panel-heading:hover {
     color: #ff6c2c;
 }
 
