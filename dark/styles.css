@@ -845,9 +845,14 @@ input#generate_password_input_field{
     border: none;
     outline: 0;
     margin: 15px;
+    width: fit-content;
 }
 
 #boxes:nth-child(3) #-group[role="category"] form.ng-pristine[action] {
     display: flex;
     gap: 5px;
+}
+
+#boxes:nth-child(3) #-group[role="category"] form.ng-pristine[action] input[name="domain"] {
+    width: 100%;
 }
