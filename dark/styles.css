@@ -857,7 +857,7 @@ input#generate_password_input_field{
     width: 100%;
 }
 
-#boxes:nth-child(3) > div:nth-child(2) {
+#boxes:nth-child(3) > div:nth-child(2), #boxes:nth-child(3) > div:nth-child(2) div.panel-heading {
     -webkit-transition: .3s all;
     -moz-transition: .3s all;
     -ms-transition: .3s all;
