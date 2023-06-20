@@ -428,7 +428,9 @@ html[dir=rtl] #content .itemTextWrapper a,html[dir=rtl] #content a.itemTextWrapp
 }
 .table>tbody>tr>td,.table>tbody>tr>th,.table>tfoot>tr>td,.table>tfoot>tr>th,.table>thead>tr>td,.table>thead>tr>th,.table>tbody>tr>th{
     border-top:1px solid #1d1d1d!important;
-    border-bottom: 1px solid #323232!important;
+}
+.table>tbody>tr>th {
+    border-bottom: 2px solid #323232!important;
 }
 .table-condensed>tbody>tr>td,.table-condensed>tbody>tr>th,.table-condensed>tfoot>tr>td,.table-condensed>tfoot>tr>th,.table-condensed>thead>tr>td,.table-condensed>thead>tr>th{
     padding:5px
@@ -901,6 +903,6 @@ div#stats:nth-child(2) > div#statsSection:nth-child(2) {
     border-color: #333;
 }
 
-.table-striped>tbody>tr>td {
+.table-striped>tbody>tr>td, .table {
     background-color: #2c2c2c!important;
 }
