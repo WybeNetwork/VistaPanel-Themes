@@ -57,8 +57,8 @@ ul.validation_errors_ul>li.validation_errors_li{
     -webkit-box-shadow:inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(255,108,44,.6);
     box-shadow:inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(255,108,44,.6)
 }
-.breadcrumb,.form-control[disabled],.form-control[readonly],.table>thead>tr>th,fieldset[disabled] .form-control{
-    background-color:#444
+.breadcrumb,.form-control[disabled],.form-control[readonly],.table>thead>tr>th,.table>tbody>tr>th,fieldset[disabled] .form-control{
+    background-color:#444!important;
 }
 .dt_module{
     padding-top:30px
@@ -353,7 +353,7 @@ html[dir=rtl] #jump-search:after{
     margin-right:20px;
     margin-bottom:35px
 }
-.panel,.widget{
+.panel,.widget,#boxes:nth-child(3) > div:nth-child(2){
     background-color:#222;
     margin-top:20px;
     box-shadow:none;
@@ -426,8 +426,11 @@ html[dir=rtl] .itemImageWrapper{
 html[dir=rtl] #content .itemTextWrapper a,html[dir=rtl] #content a.itemTextWrapper{
     padding:15px 15px 15px 0
 }
-.table>tbody>tr>td,.table>tbody>tr>th,.table>tfoot>tr>td,.table>tfoot>tr>th,.table>thead>tr>td,.table>thead>tr>th{
-    border-top:1px solid #1d1d1d
+.table>tbody>tr>td,.table>tbody>tr>th,.table>tfoot>tr>td,.table>tfoot>tr>th,.table>thead>tr>td,.table>thead>tr>th,.table>tbody>tr>th{
+    border-top:1px solid #1d1d1d!important;
+}
+.table>tbody>tr>th {
+    border-bottom: 2px solid #323232!important;
 }
 .table-condensed>tbody>tr>td,.table-condensed>tbody>tr>th,.table-condensed>tfoot>tr>td,.table-condensed>tfoot>tr>th,.table-condensed>thead>tr>td,.table-condensed>thead>tr>th{
     padding:5px
@@ -839,4 +842,67 @@ input#generate_password_input_field{
     outline: 0;
     -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(255,108,44,.6);
     box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(255,108,44,.6);
+}
+
+#boxes:nth-child(3) #-group[role="category"] {
+    border: none;
+    outline: 0;
+    margin: 15px;
+    width: fit-content;
+}
+
+#boxes:nth-child(3) #-group[role="category"] form.ng-pristine[action] {
+    display: flex;
+    gap: 5px;
+}
+
+#boxes:nth-child(3) #-group[role="category"] form.ng-pristine[action] input[name="domain"] {
+    width: 100%;
+}
+
+#boxes:nth-child(3) > div:nth-child(2), #boxes:nth-child(3) > div:nth-child(2) div.panel-heading {
+    -webkit-transition: .3s all;
+    -moz-transition: .3s all;
+    -ms-transition: .3s all;
+    -o-transition: .3s all;
+    transition: .3s all;
+}
+
+#boxes:nth-child(3) > div:nth-child(2) div.panel-heading:hover {
+    color: #ff6c2c;
+}
+
+#boxes:nth-child(3) > div:nth-child(2):hover {
+    background-color: #262626;
+    border-color: #191919;
+}
+
+@media screen and (max-width: 480px) {
+    #boxes:nth-child(3) #-group[role="category"] form.ng-pristine[action] {
+        flex-direction: column;
+        gap: 15px;
+    }
+}
+
+div#stats:nth-child(2) > div#statsSection:nth-child(2) {
+    overflow-wrap: anywhere;
+}
+.alert.alert-warning, .input-group-addon {
+    background-color: #262626;
+}
+.alert.alert-warning {
+    border: 1px solid #FF9800;
+    box-shadow: inset 41px 0 #FF9800;
+}
+
+.alert-message, .input-group-addon {
+    color: white;
+}
+
+.input-group-addon {
+    border-color: #333;
+}
+
+.table-striped>tbody>tr>td, .table {
+    background-color: #2c2c2c!important;
 }
