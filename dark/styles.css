@@ -813,7 +813,7 @@ input#generate_password_input_field{
 #trace_graphic{
     background-color:#f0f0f0
 }
-#Search, form input[name="domain"], form select[name="ext"], form input[name="DomainName"], form select[name="domain_selector"], td input[name="email"], td select[name="d_name"], td input[name="destination"], td select[name="day"], td select[name="domain_name"], td input[name="source"] {
+#Search, form input[name="domain"], form select[name="ext"], form input[name="DomainName"], form select[name="domain_selector"], td input[name="email"], td select[name="d_name"], td input[name="destination"], td select[name="day"], td select[name="domain_name"], td input[name="source"], select {
     width: auto;
     height: 34px;
     padding: 6px 12px;
