@@ -892,6 +892,10 @@ div#stats:nth-child(2) > div#statsSection:nth-child(2) {
     box-shadow: inset 41px 0 #FF9800;
 }
 
-.alert-message {
+.alert-message, .input-group-addon {
     color: white;
+}
+
+.input-group-addon {
+    border-color: #333;
 }
