@@ -884,3 +884,12 @@ input#generate_password_input_field{
 div#stats:nth-child(2) > div#statsSection:nth-child(2) {
     overflow-wrap: anywhere;
 }
+.alert.alert-warning {
+    background-color: #262626;
+    border: 1px solid #FF9800;
+    box-shadow: inset 41px 0 #FF9800;
+}
+
+.alert-message {
+    color: white;
+}
