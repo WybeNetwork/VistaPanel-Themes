@@ -830,11 +830,11 @@ input#generate_password_input_field{
     -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
     transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
 }
-#Search:hover, form input[name="domain"]:hover, form select[name="ext"]:hover, form input[name="DomainName"]:hover, form select[name="domain_selector"]:hover, td input[name="email"]:hover, td select[name="d_name"]:hover, td input[name="destination"]:hover, td select[name="day"]:hover, select[name="domain_name"]:hover, td input[name="source"]:hover {
+#Search:hover, form input[name="domain"]:hover, form select[name="ext"]:hover, form input[name="DomainName"]:hover, form select[name="domain_selector"]:hover, td input[name="email"]:hover, td select[name="d_name"]:hover, td input[name="destination"]:hover, td select[name="day"]:hover, select[name="domain_name"]:hover, td input[name="source"]:hover, select:hover {
     background-color: #555;
     border-color: #666;
 }
-#Search:focus, form input[name="domain"]:focus, form select[name="ext"]:focus, form input[name="DomainName"]:focus, form select[name="domain_selector"]:focus, td input[name="email"]:focus, td select[name="d_name"]:focus, td input[name="destination"]:focus, td select[name="day"]:focus, select[name="domain_name"]:focus, td input[name="source"]:focus {
+#Search:focus, form input[name="domain"]:focus, form select[name="ext"]:focus, form input[name="DomainName"]:focus, form select[name="domain_selector"]:focus, td input[name="email"]:focus, td select[name="d_name"]:focus, td input[name="destination"]:focus, td select[name="day"]:focus, select[name="domain_name"]:focus, td input[name="source"]:focus, select:focus {
 	border-color: #FF6C2C;
     outline: 0;
     -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(255,108,44,.6);
