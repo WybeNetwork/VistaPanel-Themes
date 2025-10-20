@@ -1,0 +1,343 @@
+/* ====================================== */
+/*  HALLOWEEN THEME BASED ON CHRISTMAS CSS */
+/* ====================================== */
+
+/* Page background */
+body {
+    background: #1a0a00;
+    color: #ffcf7b;
+}
+
+.cpanel_body {
+    max-width: 100%;
+}
+
+/* Background animation (pumpkin glow pulse) */
+@keyframes animatedBackground {
+    0% { background-position: 0; }
+    100% { background-position: 0 50px; }
+}
+@-webkit-keyframes animatedBackground {
+    0% { background-position: 0; }
+    100% { background-position: 0 50px; }
+}
+
+/* Navbar */
+.navbar-cpanel {
+    background-color: #3a0f00;
+    border-color: #ff7b00;
+    box-shadow: 0 0 5px rgba(0,0,0,0.6);
+    background: linear-gradient(180deg, #3a0f00, #2a0700);
+    background-repeat: repeat;
+    background-position: 0 0;
+    animation: animatedBackground 3s linear infinite;
+    height: 50px;
+}
+
+/* Widget headers */
+.widget-heading {
+    border: 1px solid #ff7b00;
+    color: #fff;
+    text-transform: uppercase;
+    background: #3a0f00;
+    text-shadow: 0 0 4px rgba(0,0,0,1);
+}
+
+.group-header-indicator {
+    text-shadow: 0 0 4px rgba(0,0,0,1);
+}
+
+/* Dropdowns */
+.dropdown-menu {
+    border: none;
+    padding: 0;
+    background: #2b1000;
+}
+.dropdown-menu>li>a:hover {
+    background-color: #ff7b00;
+    color: #000;
+}
+
+/* Stats */
+#stats tr {
+    background: #1a0a00;
+}
+#stats tbody {
+    border-left: 1px solid #ff7b00;
+    border-right: 1px solid #ff7b00;
+}
+
+/* Links */
+a {
+    color: #ff7b00;
+    text-decoration: none;
+}
+a:hover, a:focus {
+    color: #ffa733;
+    text-decoration: underline;
+}
+.sort-link span {
+    color: #ff7b00;
+}
+
+/* Panels */
+#home .panel-widget .panel-body {
+    background: #2b1000;
+    border-bottom: 2px solid #ff7b00;
+    border-left: 1px solid #ff7b00;
+    border-right: 1px solid #ff7b00;
+    border-radius: 0 0 3px 3px;
+    padding: 10px;
+}
+.panel-widget .panel-body {
+    border-bottom: 2px solid #ff7b00;
+    border-left: 1px solid #ff7b00;
+    border-right: 1px solid #ff7b00;
+    border-radius: 0 0 3px 3px;
+}
+
+/* Labels */
+.general-info-label {
+    color: #ffa733;
+}
+
+/* Responsive */
+@media all and (max-width: 750px) {
+    .item {
+        width: 98%;
+    }
+}
+
+/* Panel items */
+.item {
+    background: rgba(42, 20, 0, 0.8);
+    margin: 4px;
+    padding: 4px;
+    border-radius: 3px;
+    border: 1px solid #ff7b00;
+    transition: all 0.2s ease-in-out;
+}
+.item:hover {
+    background: #ff7b00;
+}
+.item:hover a.link {
+    color: #000;
+}
+.item a.link {
+    color: #ffcf7b;
+    transition: all 0.2s ease-in-out;
+}
+
+/* Inputs */
+.form-control:focus {
+    border-color: #ff7b00;
+    outline: 0;
+    box-shadow: 0 0 6px rgba(255, 108, 0, 0.4);
+}
+
+/* Tables */
+.table>thead>tr>th {
+    border-bottom: 2px solid #ff7b00;
+}
+.panel>.table, .panel>.table-responsive>.table {
+    border-bottom: 2px solid #ff7b00;
+}
+
+/* Buttons */
+.btn-link {
+    color: #ff7b00;
+}
+.btn-primary {
+    background: #ff7b00;
+    border: 1px solid #ffae42;
+    color: #000;
+}
+.btn-primary:hover, .btn-primary:focus {
+    background: #ffae42;
+    color: #000;
+}
+
+/* Pagination */
+.pagination>.active>a, 
+.pagination>.active>span,
+.pagination>.active>a:hover, 
+.pagination>.active>span:hover {
+    background-color: #ff7b00;
+    border-color: #ffae42;
+}
+
+/* Selects */
+select option:checked, select option:hover {
+    background: #ff7b00;
+    color: #000;
+}
+
+/* Active states */
+.active {
+    color: #ff7b00;
+}
+
+/* QuickFind and user pref buttons */
+#btnUserPref, .link-buttons, input#txtQuickFind {
+    background-color: rgba(255, 123, 0, 0.1);
+    border: 1px solid #ff7b00;
+    color: #ffcf7b;
+}
+input:hover#txtQuickFind, input:focus#txtQuickFind {
+    background-color: rgba(255, 123, 0, 0.2);
+    color: #fff;
+}
+
+/* Sidebar */
+aside#sidebar {
+    background-color: #1a0a00;
+    border-right: 1px solid #ff7b00;
+}
+#sidebar a {
+    padding: 10px;
+    display: block;
+    color: #ffcf7b;
+    background: #1a0a00;
+    border-bottom: 1px solid #ff7b00;
+    transition: all 0.2s ease-in-out;
+}
+#sidebar a:hover, #sidebar a.active {
+    color: #000;
+    background: #ff7b00;
+}
+
+/* Footer */
+footer {
+    background: #2b1000;
+    padding-top: 50px;
+    margin-top: 50px;
+}
+footer .navbar {
+    margin: 0 -15px;
+    background: #1a0a00;
+}
+
+/* Stats box */
+#stats {
+    color: #ffcf7b;
+    background: #1a0a00;
+    border: 1px solid #ff7b00;
+}
+
+/* ============================== */
+/* HALLOWEEN WHITE BOX FIXES 🎃   */
+/* ============================== */
+
+/* Panels and boxes */
+.panel,
+.panel-default,
+.panel-body,
+.panel-widget,
+#content,
+#home .panel-widget,
+#home .panel-widget .panel-body,
+#stats,
+table,
+td,
+th {
+    background-color: #1a0a00 !important;
+    color: #ffcf7b !important;
+    border-color: #ff7b00 !important;
+}
+
+/* Inputs and form fields */
+input[type="text"],
+input[type="search"],
+input[type="email"],
+input[type="password"],
+select,
+textarea {
+    background-color: #2b1000 !important;
+    color: #ffcf7b !important;
+    border: 1px solid #ff7b00 !important;
+    border-radius: 4px;
+    box-shadow: inset 0 0 3px rgba(255, 108, 0, 0.2);
+    transition: all 0.2s ease-in-out;
+}
+input:focus,
+select:focus,
+textarea:focus {
+    background-color: #3a0f00 !important;
+    color: #fff !important;
+    box-shadow: 0 0 6px rgba(255, 108, 0, 0.4);
+}
+
+/* Buttons */
+button,
+.btn {
+    background-color: #ff7b00 !important;
+    color: #000 !important;
+    border: 1px solid #ffae42 !important;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: all 0.25s ease-in-out;
+}
+button:hover,
+.btn:hover {
+    background-color: #ffae42 !important;
+    color: #000 !important;
+    box-shadow: 0 0 6px rgba(255, 136, 0, 0.4);
+}
+
+/* Dropdowns and menus */
+.dropdown-menu {
+    background-color: #1a0a00 !important;
+    color: #ffcf7b !important;
+    border: 1px solid #ff7b00 !important;
+}
+.dropdown-menu>li>a {
+    color: #ffcf7b !important;
+}
+.dropdown-menu>li>a:hover {
+    background-color: #ff7b00 !important;
+    color: #000 !important;
+}
+
+/* Tables */
+.table>tbody>tr>td,
+.table>thead>tr>th {
+    background-color: #1a0a00 !important;
+    color: #ffcf7b !important;
+    border-color: #ff7b00 !important;
+}
+
+/* Widgets & stat boxes */
+.widget-heading,
+#stats,
+.panel-heading {
+    background-color: #2b1000 !important;
+    color: #ffa733 !important;
+    border: 1px solid #ff7b00 !important;
+}
+
+/* Footer */
+footer,
+footer .navbar {
+    background-color: #1a0a00 !important;
+    color: #ffcf7b !important;
+}
+
+/* Quickjump fix */
+#quickjump,
+#quickjump input,
+#quickjump select {
+    background-color: #2b1000 !important;
+    color: #ffcf7b !important;
+    border: 1px solid #ff7b00 !important;
+}
+#quickjump input:focus {
+    background-color: #3a0f00 !important;
+    color: #fff !important;
+}
+
+/* Sidebar alignment */
+aside#sidebar {
+    background-color: #1a0a00 !important;
+    color: #ffcf7b !important;
+    border-right: 1px solid #ff7b00 !important;
+}

@@ -1,0 +1,232 @@
+
+  /* ===================================== */
+/*  VISTAPANEL "NEBULA" THEME BY YOU 🌌  */
+/*  Base: Christmas Theme (structure-safe) */
+/* ===================================== */
+
+/* Global page background */
+body {
+    background: radial-gradient(circle at top left, #0d0221, #05010f 70%);
+    color: #cfc9ff;
+    font-family: "Segoe UI", sans-serif;
+}
+
+/* Limit layout width */
+.cpanel_body {
+    max-width: 100%;
+}
+
+/* Subtle background animation */
+@keyframes nebulaShift {
+    0% { background-position: 0 0; }
+    100% { background-position: 0 100px; }
+}
+@-webkit-keyframes nebulaShift {
+    0% { background-position: 0 0; }
+    100% { background-position: 0 100px; }
+}
+
+/* Navbar */
+.navbar-cpanel {
+    background: linear-gradient(90deg, #19032f, #24084a, #0a0324);
+    border-color: #5c29b5;
+    box-shadow: 0 0 10px rgba(162, 109, 255, 0.4);
+    background-size: 400% 400%;
+    animation: nebulaShift 6s linear infinite;
+    height: 50px;
+}
+
+/* Section headers */
+.widget-heading {
+    border: 1px solid #673ab7;
+    color: #e0dcff;
+    background: linear-gradient(90deg, #24084a, #321169);
+    text-transform: uppercase;
+    text-shadow: 0 0 5px rgba(90, 50, 180, 0.8);
+}
+.group-header-indicator {
+    text-shadow: 0 0 4px rgba(90, 50, 180, 0.8);
+}
+
+/* Dropdowns */
+.dropdown-menu {
+    border: none;
+    padding: 0;
+    background: #0d0221;
+}
+.dropdown-menu>li>a {
+    color: #cfc9ff;
+}
+.dropdown-menu>li>a:hover {
+    background-color: #5c29b5;
+    color: #fff;
+}
+
+/* Stats panel */
+#stats tr {
+    background: #0d0221;
+}
+#stats tbody {
+    border-left: 1px solid #5c29b5;
+    border-right: 1px solid #5c29b5;
+}
+
+/* Links */
+a {
+    color: #9f7bff;
+    text-decoration: none;
+}
+a:hover, a:focus {
+    color: #bb9cff;
+    text-decoration: underline;
+}
+.sort-link span {
+    color: #9f7bff;
+}
+
+/* Panels */
+#home .panel-widget .panel-body,
+.panel-widget .panel-body {
+    background: rgba(22, 6, 56, 0.8);
+    border-bottom: 2px solid #5c29b5;
+    border-left: 1px solid #5c29b5;
+    border-right: 1px solid #5c29b5;
+    border-radius: 0 0 4px 4px;
+    padding: 8px;
+}
+
+/* Text labels */
+.general-info-label {
+    color: #9f7bff;
+}
+
+/* Responsive */
+@media all and (max-width: 750px) {
+    .item {
+        width: 98%;
+    }
+}
+
+/* Panel items */
+.item {
+    background: rgba(15, 5, 36, 0.85);
+    margin: 4px;
+    padding: 4px;
+    border-radius: 3px;
+    border: 1px solid #5c29b5;
+    transition: all 0.25s ease-in-out;
+}
+.item:hover {
+    background: #5c29b5;
+    color: #fff;
+}
+.item:hover a.link {
+    color: #fff;
+}
+.item a.link {
+    color: #d2caff;
+    transition: all 0.2s ease-in-out;
+}
+
+/* Inputs & form controls */
+.form-control,
+input,
+select,
+textarea {
+    background-color: #12052e;
+    color: #d2caff;
+    border: 1px solid #5c29b5;
+    border-radius: 4px;
+    transition: all 0.2s ease-in-out;
+}
+.form-control:focus,
+input:focus,
+select:focus,
+textarea:focus {
+    border-color: #9f7bff;
+    box-shadow: 0 0 8px rgba(157, 102, 255, 0.6);
+    background-color: #1b0843;
+    color: #fff;
+}
+
+/* Tables */
+.table>thead>tr>th {
+    border-bottom: 2px solid #5c29b5;
+    background: #19032f;
+    color: #d2caff;
+}
+.table>tbody>tr>td {
+    background: rgba(13, 2, 33, 0.8);
+    color: #cfc9ff;
+}
+
+/* Buttons */
+.btn-link {
+    color: #9f7bff;
+}
+.btn-primary {
+    background: linear-gradient(90deg, #5c29b5, #9f7bff);
+    border: 1px solid #9f7bff;
+    color: #fff;
+    transition: all 0.25s ease-in-out;
+}
+.btn-primary:hover,
+.btn-primary:focus {
+    background: linear-gradient(90deg, #9f7bff, #5c29b5);
+    box-shadow: 0 0 8px rgba(157, 102, 255, 0.6);
+}
+
+/* Pagination */
+.pagination>.active>a,
+.pagination>.active>span {
+    background-color: #5c29b5;
+    border-color: #9f7bff;
+}
+.pagination>.active>a:hover,
+.pagination>.active>span:hover {
+    background-color: #9f7bff;
+    border-color: #cfc9ff;
+}
+
+/* Sidebar */
+aside#sidebar {
+    background-color: #0d0221;
+    border-right: 1px solid #5c29b5;
+}
+#sidebar a {
+    padding: 10px;
+    display: block;
+    color: #cfc9ff;
+    background: #0d0221;
+    border-bottom: 1px solid #321169;
+    transition: all 0.2s ease-in-out;
+}
+#sidebar a:hover, #sidebar a.active {
+    background: linear-gradient(90deg, #321169, #5c29b5);
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Footer */
+footer {
+    background: #0d0221;
+    border-top: 1px solid #5c29b5;
+    color: #cfc9ff;
+    padding-top: 50px;
+}
+footer .navbar {
+    background: #0d0221;
+}
+
+/* Stats boxes and quickjump */
+#quickjump,
+#quickjump input,
+#quickjump select {
+    background-color: #12052e;
+    color: #cfc9ff;
+    border: 1px solid #5c29b5;
+}
+#quickjump input:focus {
+    background-color: #1b0843;
+    color: #fff;
+}
