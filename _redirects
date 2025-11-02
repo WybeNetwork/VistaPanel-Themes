@@ -1,1 +1,42 @@
 / https://cdn.wybenetwork.com/ 302
+
+# Redirects from old paths
+
+# Customizations
+/Bootswatch_Flatly/* /customizations/Bootswatch_Flatly/:splat 301
+/Butterfly/* /customizations/Butterfly/:splat 301
+/Future/* /customizations/Future/:splat 301
+/Homebrew/* /customizations/Homebrew/:splat 301
+/Icy/* /customizations/Icy/:splat 301
+/Military/* /customizations/Military/:splat 301
+/No_Icons/* /customizations/No_Icons/:splat 301
+/StockPhotography/* /customizations/StockPhotography/:splat 301
+
+# Default
+/dark/* /default/dark/:splat 301
+/glass/* /default/glass/:splat 301
+/light/* /default/light/:splat 301
+/retro/* /default/retro/:splat 301
+
+# Gradient
+/gradient-blue/* /gradient/gradient-blue/:splat 301
+/gradient-green/* /gradient/gradient-green/:splat 301
+/gradient-purple/* /gradient/gradient-purple/:splat 301
+/gradient-red/* /gradient/gradient-red/:splat 301
+
+# Lightspace
+/lightspace-blue/* /lightspace/lightspace-blue/:splat 301
+/lightspace-green/* /lightspace/lightspace-green/:splat 301
+/lightspace-purple/* /lightspace/lightspace-purple/:splat 301
+/lightspace-red/* /lightspace/lightspace-red/:splat 301
+/vistainvented/* /lightspace/vistainvented/:splat 301
+
+# Lite
+/dark-lite/* /lite/dark-lite/:splat 301
+/gradient-blue-lite/* /lite/gradient-blue-lite/:splat 301
+/light-lite/* /lite/light-lite/:splat 301
+
+# Other
+/christmas/* /other/christmas/:splat 301
+/dark-discord/* /other/dark-discord/:splat 301
+/dark-space/* /other/dark-space/:splat 301
