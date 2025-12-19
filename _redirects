@@ -3,14 +3,14 @@
 # Redirects from old paths
 
 # Customizations
-/Bootswatch_Flatly/* /paper_lantern_customizations/bootswatch-flatly/:splat 301
-/Butterfly/* /paper_lantern_customizations/butterfly/:splat 301
-/Future/* /paper_lantern_customizations/future/:splat 301
-/Homebrew/* /paper_lantern_customizations/homebrew/:splat 301
-/Icy/* /paper_lantern_customizations/icy/:splat 301
-/Military/* /paper_lantern_customizations/military/:splat 301
-/No_Icons/* /paper_lantern_customizations/no-icons/:splat 301
-/StockPhotography/* /paper_lantern_customizations/stock-photography/:splat 301
+/Bootswatch_Flatly/* /paper-lantern-customizations/bootswatch-flatly/:splat 301
+/Butterfly/* /paper-lantern-customizations/butterfly/:splat 301
+/Future/* /paper-lantern-customizations/future/:splat 301
+/Homebrew/* /paper-lantern-customizations/homebrew/:splat 301
+/Icy/* /paper-lantern-customizations/icy/:splat 301
+/Military/* /paper-lantern-customizations/military/:splat 301
+/No_Icons/* /paper-lantern-customizations/no-icons/:splat 301
+/StockPhotography/* /paper-lantern-customizations/stock-photography/:splat 301
 
 # Default
 /dark/* /default/dark/:splat 301
