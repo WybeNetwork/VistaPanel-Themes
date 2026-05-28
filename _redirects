@@ -31,6 +31,8 @@
 /lightspace-red/* /lightspace/lightspace-red/:splat 301
 /vistainvented/* /lightspace/vistainvented/:splat 301
 
+/lightspace/:theme/panel.css /lightspace/:theme/styles.css 301
+
 # Lite
 /dark-lite/* /lite/dark-lite/:splat 301
 /gradient-blue-lite/* /lite/gradient-blue-lite/:splat 301

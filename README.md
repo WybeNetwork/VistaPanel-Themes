@@ -14,20 +14,8 @@ You must paste the code included below to your footer section of control panel a
 The codes below are just examples, you must replace ``theme-name`` with the name of the theme you want to use.
 You can find it's name written at the folder, and it is **case sensitive**.
 
-## For Normal Themes
-```
-<link rel="stylesheet" type="text/css" href="https://mydomain.com/theme-name/icon_spritemap.css">
-<link rel="stylesheet" type="text/css" href="https://mydomain.com/theme-name/styles.css">
-```
-
-## For Lite Themes
 ```
 <link rel="stylesheet" type="text/css" href="https://mydomain.com/theme-name/styles.css">
-```
-
-## For LightSpace Theme
-```
-<link rel="stylesheet" type="text/css" href="https://mydomain.com/theme-name/panel.css">
 ```  
 
 It will be now deployed and used in VistaPanel. Congratulations, you have just changed your theme!  
