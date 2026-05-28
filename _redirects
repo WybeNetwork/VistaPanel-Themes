@@ -38,7 +38,7 @@
 /gradient-blue-lite/* /lite/gradient-blue-lite/:splat 301
 /light-lite/* /lite/light-lite/:splat 301
 
-# Other
-/christmas/* /other/christmas/:splat 301
-/dark-discord/* /other/dark-discord/:splat 301
-/dark-space/* /other/dark-space/:splat 301
+# Custom
+/christmas/* /custom/christmas/:splat 301
+/dark-discord/* /custom/dark-discord/:splat 301
+/dark-space/* /custom/dark-space/:splat 301
